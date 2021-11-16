@@ -1,0 +1,11 @@
+Welcome
+double
+time
+showdown
+rev
+rev str
+method4
+ctor
+push back
+str size
+null char in cout str

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/TrialProjects/VSCode/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\InitCPP.cpp.obj -c D:\\TrialProjects\\VSCode\\src\\InitCPP.cpp",
+  "file": "D:/TrialProjects/VSCode/src/InitCPP.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\main.cpp.obj -c D:\\TrialProjects\\VSCode\\src\\main.cpp",
+  "file": "D:/TrialProjects/VSCode/src/main.cpp"
+}
+]
