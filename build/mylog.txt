@@ -9,3 +9,5 @@ ctor
 push back
 str size
 null char in cout str
+shorten code
+OPEN

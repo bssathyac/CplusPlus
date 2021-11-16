@@ -113,11 +113,41 @@ CMakeFiles/InitCPP.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/main.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\main.cpp -o CMakeFiles\InitCPP.dir\src\main.cpp.s
 
+CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
+CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
+CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: ../src/operatorOverloading.cpp
+CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj -MF CMakeFiles\InitCPP.dir\src\operatorOverloading.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\operatorOverloading.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\operatorOverloading.cpp
+
+CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\TrialProjects\VSCode\InitCPP\src\operatorOverloading.cpp > CMakeFiles\InitCPP.dir\src\operatorOverloading.cpp.i
+
+CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\operatorOverloading.cpp -o CMakeFiles\InitCPP.dir\src\operatorOverloading.cpp.s
+
+CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
+CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
+CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: ../src/shortCodeSnips.cpp
+CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj -MF CMakeFiles\InitCPP.dir\src\shortCodeSnips.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\shortCodeSnips.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\shortCodeSnips.cpp
+
+CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\TrialProjects\VSCode\InitCPP\src\shortCodeSnips.cpp > CMakeFiles\InitCPP.dir\src\shortCodeSnips.cpp.i
+
+CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\shortCodeSnips.cpp -o CMakeFiles\InitCPP.dir\src\shortCodeSnips.cpp.s
+
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: ../src/stringRev.cpp
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj -MF CMakeFiles\InitCPP.dir\src\stringRev.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\stringRev.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\stringRev.cpp
 
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.i: cmake_force
@@ -128,12 +158,30 @@ CMakeFiles/InitCPP.dir/src/stringRev.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/stringRev.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\stringRev.cpp -o CMakeFiles\InitCPP.dir\src\stringRev.cpp.s
 
+CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
+CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
+CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: ../src/virtualFunc.cpp
+CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj -MF CMakeFiles\InitCPP.dir\src\virtualFunc.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\virtualFunc.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\virtualFunc.cpp
+
+CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\TrialProjects\VSCode\InitCPP\src\virtualFunc.cpp > CMakeFiles\InitCPP.dir\src\virtualFunc.cpp.i
+
+CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\virtualFunc.cpp -o CMakeFiles\InitCPP.dir\src\virtualFunc.cpp.s
+
 # Object files for target InitCPP
 InitCPP_OBJECTS = \
 "CMakeFiles/InitCPP.dir/src/InitCPP.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/letterCount.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/main.cpp.obj" \
-"CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj"
+"CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj" \
+"CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj" \
+"CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj" \
+"CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj"
 
 # External object files for target InitCPP
 InitCPP_EXTERNAL_OBJECTS =
@@ -141,12 +189,15 @@ InitCPP_EXTERNAL_OBJECTS =
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/InitCPP.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/letterCount.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/main.cpp.obj
+InitCPP.exe: CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj
+InitCPP.exe: CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj
+InitCPP.exe: CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/build.make
 InitCPP.exe: CMakeFiles/InitCPP.dir/linklibs.rsp
 InitCPP.exe: CMakeFiles/InitCPP.dir/objects1.rsp
 InitCPP.exe: CMakeFiles/InitCPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable InitCPP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable InitCPP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\InitCPP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

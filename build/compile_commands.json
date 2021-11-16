@@ -16,7 +16,22 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\operatorOverloading.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\operatorOverloading.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/operatorOverloading.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\shortCodeSnips.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\shortCodeSnips.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/shortCodeSnips.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\stringRev.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\stringRev.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/stringRev.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\virtualFunc.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\virtualFunc.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/virtualFunc.cpp"
 }
 ]

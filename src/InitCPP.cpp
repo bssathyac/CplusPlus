@@ -70,3 +70,14 @@ int varArgfuncUsage(void) {
 
 	return EXIT_SUCCESS;
 }
+int checkTypeCastPromotion()
+{
+    int n(10);
+    double arra[n][5];
+    int a = 7, b = 2;
+    float c;
+    c = a / b;
+  
+    cout << "Result:" << c;
+	return EXIT_SUCCESS;
+}

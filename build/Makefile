@@ -594,6 +594,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/operatorOverloading.obj: src/operatorOverloading.cpp.obj
+.PHONY : src/operatorOverloading.obj
+
+# target to build an object file
+src/operatorOverloading.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj
+.PHONY : src/operatorOverloading.cpp.obj
+
+src/operatorOverloading.i: src/operatorOverloading.cpp.i
+.PHONY : src/operatorOverloading.i
+
+# target to preprocess a source file
+src/operatorOverloading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.i
+.PHONY : src/operatorOverloading.cpp.i
+
+src/operatorOverloading.s: src/operatorOverloading.cpp.s
+.PHONY : src/operatorOverloading.s
+
+# target to generate assembly for a file
+src/operatorOverloading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.s
+.PHONY : src/operatorOverloading.cpp.s
+
+src/shortCodeSnips.obj: src/shortCodeSnips.cpp.obj
+.PHONY : src/shortCodeSnips.obj
+
+# target to build an object file
+src/shortCodeSnips.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj
+.PHONY : src/shortCodeSnips.cpp.obj
+
+src/shortCodeSnips.i: src/shortCodeSnips.cpp.i
+.PHONY : src/shortCodeSnips.i
+
+# target to preprocess a source file
+src/shortCodeSnips.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.i
+.PHONY : src/shortCodeSnips.cpp.i
+
+src/shortCodeSnips.s: src/shortCodeSnips.cpp.s
+.PHONY : src/shortCodeSnips.s
+
+# target to generate assembly for a file
+src/shortCodeSnips.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.s
+.PHONY : src/shortCodeSnips.cpp.s
+
 src/stringRev.obj: src/stringRev.cpp.obj
 .PHONY : src/stringRev.obj
 
@@ -617,6 +665,30 @@ src/stringRev.s: src/stringRev.cpp.s
 src/stringRev.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringRev.cpp.s
 .PHONY : src/stringRev.cpp.s
+
+src/virtualFunc.obj: src/virtualFunc.cpp.obj
+.PHONY : src/virtualFunc.obj
+
+# target to build an object file
+src/virtualFunc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj
+.PHONY : src/virtualFunc.cpp.obj
+
+src/virtualFunc.i: src/virtualFunc.cpp.i
+.PHONY : src/virtualFunc.i
+
+# target to preprocess a source file
+src/virtualFunc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.i
+.PHONY : src/virtualFunc.cpp.i
+
+src/virtualFunc.s: src/virtualFunc.cpp.s
+.PHONY : src/virtualFunc.s
+
+# target to generate assembly for a file
+src/virtualFunc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.s
+.PHONY : src/virtualFunc.cpp.s
 
 # Help Target
 help:
@@ -667,9 +739,18 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/operatorOverloading.obj
+	@echo ... src/operatorOverloading.i
+	@echo ... src/operatorOverloading.s
+	@echo ... src/shortCodeSnips.obj
+	@echo ... src/shortCodeSnips.i
+	@echo ... src/shortCodeSnips.s
 	@echo ... src/stringRev.obj
 	@echo ... src/stringRev.i
 	@echo ... src/stringRev.s
+	@echo ... src/virtualFunc.obj
+	@echo ... src/virtualFunc.i
+	@echo ... src/virtualFunc.s
 .PHONY : help
 
 

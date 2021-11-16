@@ -3,17 +3,22 @@
 
 int main(int argc, char *argv[])
 {
-    int n(10);
-    double a[n][5];
-    varArgfuncUsage();
-    letterCountInString();
-    swapStringfromMiddle();
-    swapStringwithInBuiltReverseMethod(); // #include <bits/stdc++.h>
-    reversePrintStringFunc();
-    revStrPassedAsConst();
-    mrevStrByConstructrUsage();
-    revStrUsingTempStrPushBack();
-    getTheStringLength();
-
+    // checkTypeCastPromotion();
+    // varArgfuncUsage();
+    // letterCountInString();
+    // swapStringfromMiddle();
+    // swapStringwithInBuiltReverseMethod(); // #include <bits/stdc++.h>
+    // reversePrintStringFunc();
+    // revStrPassedAsConst();
+    // mrevStrByConstructrUsage();
+    // revStrUsingTempStrPushBack();
+    // getTheStringLength();
+    // fileReOPENwithStdinStdout();
+    virtualFuncUsage1();
+    virtualMethodCtorDtor();
+    ctorDtorCallSeq();
+    addComplexNos();
+    subComplexNos();
+    
    // callShapes3dInmain(argc, &argv[0]);
 }

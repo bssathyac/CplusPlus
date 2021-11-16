@@ -8,7 +8,8 @@
 		"files.associations": {
 			"ostream": "cpp",
 			"*.tcc": "cpp",
-			"string": "cpp"
+			"string": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }
