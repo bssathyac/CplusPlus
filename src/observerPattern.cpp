@@ -54,7 +54,7 @@ class Subject : public ISubject {
     list_observer_.remove(observer);
   }
   void Notify() override {
-    std::list<  *>::iterator iterator = list_observer_.begin();
+    std::list<IObserver *>::iterator iterator = list_observer_.begin();
     HowManyObserver();
     while (iterator != list_observer_.end()) {
       (*iterator)->Update(message_);
