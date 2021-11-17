@@ -23,8 +23,9 @@ int main(int argc, char *argv[])
     // singletonMethodDemo();
     // diamondInheritanceCase();
     // sortFuncFromAlgorithmLib();
-    theObserverPattern();
-
+    // theObserverPattern();
+    findPrimesbelowN();
+    sieveOFeratosthenes();
     
    // callShapes3dInmain(argc, &argv[0]);
 }

@@ -31,6 +31,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\primesBelowN.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\primesBelowN.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/primesBelowN.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\shortCodeSnips.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\shortCodeSnips.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/shortCodeSnips.cpp"
 },

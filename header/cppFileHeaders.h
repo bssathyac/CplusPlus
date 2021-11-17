@@ -28,6 +28,9 @@ int diamondInheritanceCase(void);
 int sortFuncFromAlgorithmLib(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\observerPattern.cpp has the below function and is linked with CMake
 int theObserverPattern(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\primesBelowN.cpp has the below function and is linked with CMake
+int findPrimesbelowN(void);
+int sieveOFeratosthenes(void);
 
 
 //int callShapes3dInmain(int argc, char *argv[]);

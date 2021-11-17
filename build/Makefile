@@ -666,6 +666,30 @@ src/operatorOverloading.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.s
 .PHONY : src/operatorOverloading.cpp.s
 
+src/primesBelowN.obj: src/primesBelowN.cpp.obj
+.PHONY : src/primesBelowN.obj
+
+# target to build an object file
+src/primesBelowN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj
+.PHONY : src/primesBelowN.cpp.obj
+
+src/primesBelowN.i: src/primesBelowN.cpp.i
+.PHONY : src/primesBelowN.i
+
+# target to preprocess a source file
+src/primesBelowN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.i
+.PHONY : src/primesBelowN.cpp.i
+
+src/primesBelowN.s: src/primesBelowN.cpp.s
+.PHONY : src/primesBelowN.s
+
+# target to generate assembly for a file
+src/primesBelowN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.s
+.PHONY : src/primesBelowN.cpp.s
+
 src/shortCodeSnips.obj: src/shortCodeSnips.cpp.obj
 .PHONY : src/shortCodeSnips.obj
 
@@ -820,6 +844,9 @@ help:
 	@echo ... src/operatorOverloading.obj
 	@echo ... src/operatorOverloading.i
 	@echo ... src/operatorOverloading.s
+	@echo ... src/primesBelowN.obj
+	@echo ... src/primesBelowN.i
+	@echo ... src/primesBelowN.s
 	@echo ... src/shortCodeSnips.obj
 	@echo ... src/shortCodeSnips.i
 	@echo ... src/shortCodeSnips.s
