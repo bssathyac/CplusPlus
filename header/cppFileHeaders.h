@@ -20,5 +20,14 @@ int ctorDtorCallSeq(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\operatorOverloading.cpp has the below function and is linked with CMake
 int addComplexNos(void);
 int subComplexNos(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\inheritanceClassUses.cpp has the below function and is linked with CMake
+int factoryCreateMethodDemo(void);
+int singletonMethodDemo(void);
+int diamondInheritanceCase(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\stdTempLibs.cpp has the below function and is linked with CMake
+int sortFuncFromAlgorithmLib(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\observerPattern.cpp has the below function and is linked with CMake
+int theObserverPattern(void);
+
 
 //int callShapes3dInmain(int argc, char *argv[]);

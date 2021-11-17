@@ -546,6 +546,30 @@ src/InitCPP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/InitCPP.cpp.s
 .PHONY : src/InitCPP.cpp.s
 
+src/inheritanceClassUses.obj: src/inheritanceClassUses.cpp.obj
+.PHONY : src/inheritanceClassUses.obj
+
+# target to build an object file
+src/inheritanceClassUses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.obj
+.PHONY : src/inheritanceClassUses.cpp.obj
+
+src/inheritanceClassUses.i: src/inheritanceClassUses.cpp.i
+.PHONY : src/inheritanceClassUses.i
+
+# target to preprocess a source file
+src/inheritanceClassUses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.i
+.PHONY : src/inheritanceClassUses.cpp.i
+
+src/inheritanceClassUses.s: src/inheritanceClassUses.cpp.s
+.PHONY : src/inheritanceClassUses.s
+
+# target to generate assembly for a file
+src/inheritanceClassUses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.s
+.PHONY : src/inheritanceClassUses.cpp.s
+
 src/letterCount.obj: src/letterCount.cpp.obj
 .PHONY : src/letterCount.obj
 
@@ -594,6 +618,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/observerPattern.obj: src/observerPattern.cpp.obj
+.PHONY : src/observerPattern.obj
+
+# target to build an object file
+src/observerPattern.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj
+.PHONY : src/observerPattern.cpp.obj
+
+src/observerPattern.i: src/observerPattern.cpp.i
+.PHONY : src/observerPattern.i
+
+# target to preprocess a source file
+src/observerPattern.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/observerPattern.cpp.i
+.PHONY : src/observerPattern.cpp.i
+
+src/observerPattern.s: src/observerPattern.cpp.s
+.PHONY : src/observerPattern.s
+
+# target to generate assembly for a file
+src/observerPattern.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/observerPattern.cpp.s
+.PHONY : src/observerPattern.cpp.s
+
 src/operatorOverloading.obj: src/operatorOverloading.cpp.obj
 .PHONY : src/operatorOverloading.obj
 
@@ -641,6 +689,30 @@ src/shortCodeSnips.s: src/shortCodeSnips.cpp.s
 src/shortCodeSnips.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.s
 .PHONY : src/shortCodeSnips.cpp.s
+
+src/stdTempLibs.obj: src/stdTempLibs.cpp.obj
+.PHONY : src/stdTempLibs.obj
+
+# target to build an object file
+src/stdTempLibs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj
+.PHONY : src/stdTempLibs.cpp.obj
+
+src/stdTempLibs.i: src/stdTempLibs.cpp.i
+.PHONY : src/stdTempLibs.i
+
+# target to preprocess a source file
+src/stdTempLibs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.i
+.PHONY : src/stdTempLibs.cpp.i
+
+src/stdTempLibs.s: src/stdTempLibs.cpp.s
+.PHONY : src/stdTempLibs.s
+
+# target to generate assembly for a file
+src/stdTempLibs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.s
+.PHONY : src/stdTempLibs.cpp.s
 
 src/stringRev.obj: src/stringRev.cpp.obj
 .PHONY : src/stringRev.obj
@@ -733,18 +805,27 @@ help:
 	@echo ... src/InitCPP.obj
 	@echo ... src/InitCPP.i
 	@echo ... src/InitCPP.s
+	@echo ... src/inheritanceClassUses.obj
+	@echo ... src/inheritanceClassUses.i
+	@echo ... src/inheritanceClassUses.s
 	@echo ... src/letterCount.obj
 	@echo ... src/letterCount.i
 	@echo ... src/letterCount.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/observerPattern.obj
+	@echo ... src/observerPattern.i
+	@echo ... src/observerPattern.s
 	@echo ... src/operatorOverloading.obj
 	@echo ... src/operatorOverloading.i
 	@echo ... src/operatorOverloading.s
 	@echo ... src/shortCodeSnips.obj
 	@echo ... src/shortCodeSnips.i
 	@echo ... src/shortCodeSnips.s
+	@echo ... src/stdTempLibs.obj
+	@echo ... src/stdTempLibs.i
+	@echo ... src/stdTempLibs.s
 	@echo ... src/stringRev.obj
 	@echo ... src/stringRev.i
 	@echo ... src/stringRev.s

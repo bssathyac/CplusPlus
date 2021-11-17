@@ -15,21 +15,29 @@ public:
  
 int virtualFuncUsage1(void)
 {
-    cout<<"==============================> In Func virtualFuncUsage1 \n";
+    cout<<"==============================> In Func virtualFuncUsage1 A \n";
     vBase *bp = new vDerived;
     bp->show();
  
     vBase &br = *bp;
     br.show();
+    cout<<"==============================> In Func virtualFuncUsage1 B \n";
 
     vBase *bptr, b;
-    vDerived d;
+    vDerived d, *dptr;
     bptr = &d;
     bptr->show();
     bptr = &b;
     bptr->show();
     d.show();
     b.show();
+    
+    //cout<<"==============================> In Func virtualFuncUsage1 C \n";
+    //dptr = &b;  compilation error
+    //dptr = &d; exclude this line to cause invalid pointer access from next line
+    //dptr->show(); crashes the prog exec abruptly and does not execute any further func calls in main
+    //if (dptr == NULL) { cout << "unassigned pointer dptr \n"; }
+    dptr = dynamic_cast<vDerived*>(bptr);
  
     return 0;
 }

@@ -14,11 +14,17 @@ int main(int argc, char *argv[])
     // revStrUsingTempStrPushBack();
     // getTheStringLength();
     // fileReOPENwithStdinStdout();
-    virtualFuncUsage1();
-    virtualMethodCtorDtor();
-    ctorDtorCallSeq();
-    addComplexNos();
-    subComplexNos();
+    // virtualFuncUsage1();
+    // virtualMethodCtorDtor();
+    // ctorDtorCallSeq();
+    // addComplexNos();
+    // subComplexNos();
+    // factoryCreateMethodDemo();
+    // singletonMethodDemo();
+    // diamondInheritanceCase();
+    // sortFuncFromAlgorithmLib();
+    theObserverPattern();
+
     
    // callShapes3dInmain(argc, &argv[0]);
 }
