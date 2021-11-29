@@ -4,6 +4,8 @@
 int main(int argc, char *argv[])
 {
     // checkTypeCastPromotion();
+    // constPtrEg();
+    // mutableStorageClassSpecifier();
     // varArgfuncUsage();
     // letterCountInString();
     // swapStringfromMiddle();
@@ -24,8 +26,10 @@ int main(int argc, char *argv[])
     // diamondInheritanceCase();
     // sortFuncFromAlgorithmLib();
     // theObserverPattern();
-    findPrimesbelowN();
-    sieveOFeratosthenes();
+    // findPrimesbelowN();
+    // sieveOFeratosthenes();
+    // copyCtorExplained();
+    // multiThreadFunc(); TODO
     
    // callShapes3dInmain(argc, &argv[0]);
 }

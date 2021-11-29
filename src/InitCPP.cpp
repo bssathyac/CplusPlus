@@ -25,6 +25,13 @@ int varArgfuncUsage(void) {
 
 	char* xStr[256];
 	int x, y(50);
+
+	cout << "Enter any int" << "\n";
+	scanf("%d",&x);
+	int &ptr1 = y, &ptr2 = ptr1;
+	++ptr1; ++ptr2;
+	cout << &ptr1 << "\t" << &ptr2 << "\n";
+
 	puts("Hello C World!!!");
     std::cout << "Hello, C++ world!\n";
 	//gets(xStr);
@@ -37,11 +44,6 @@ int varArgfuncUsage(void) {
     pFile = fopen ("mylog.txt","a");
     fputs (sentence,pFile);
     fclose (pFile);
-	cout << "Enter any int" << "\n";
-	scanf("%d",&x);
-	int &ptr1 = y, &ptr2 = ptr1;
-	++ptr1; ++ptr2;
-	cout << &ptr1 << "\t" << &ptr2 << "\n";
 	printf("%d %s", x+y, sentence);
 	/* *
 	 * The stdout stream is line buffered by default, so will only display what's in the buffer after it reaches a newline (or when it's told to). You have a few options to print immediately:
@@ -57,7 +59,7 @@ int varArgfuncUsage(void) {
 	 * */
 
 	 FILE * qFile;
-	 char* fName = "myl.txt";
+	 char* fName = {"myl.txt"};
 
 	   qFile = fopen (fName,"w");
 

@@ -546,6 +546,54 @@ src/InitCPP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/InitCPP.cpp.s
 .PHONY : src/InitCPP.cpp.s
 
+src/constPointer.obj: src/constPointer.cpp.obj
+.PHONY : src/constPointer.obj
+
+# target to build an object file
+src/constPointer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj
+.PHONY : src/constPointer.cpp.obj
+
+src/constPointer.i: src/constPointer.cpp.i
+.PHONY : src/constPointer.i
+
+# target to preprocess a source file
+src/constPointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/constPointer.cpp.i
+.PHONY : src/constPointer.cpp.i
+
+src/constPointer.s: src/constPointer.cpp.s
+.PHONY : src/constPointer.s
+
+# target to generate assembly for a file
+src/constPointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/constPointer.cpp.s
+.PHONY : src/constPointer.cpp.s
+
+src/cpyCtor.obj: src/cpyCtor.cpp.obj
+.PHONY : src/cpyCtor.obj
+
+# target to build an object file
+src/cpyCtor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj
+.PHONY : src/cpyCtor.cpp.obj
+
+src/cpyCtor.i: src/cpyCtor.cpp.i
+.PHONY : src/cpyCtor.i
+
+# target to preprocess a source file
+src/cpyCtor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.i
+.PHONY : src/cpyCtor.cpp.i
+
+src/cpyCtor.s: src/cpyCtor.cpp.s
+.PHONY : src/cpyCtor.s
+
+# target to generate assembly for a file
+src/cpyCtor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.s
+.PHONY : src/cpyCtor.cpp.s
+
 src/inheritanceClassUses.obj: src/inheritanceClassUses.cpp.obj
 .PHONY : src/inheritanceClassUses.obj
 
@@ -569,6 +617,30 @@ src/inheritanceClassUses.s: src/inheritanceClassUses.cpp.s
 src/inheritanceClassUses.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.s
 .PHONY : src/inheritanceClassUses.cpp.s
+
+src/isAhasAclassRelation.obj: src/isAhasAclassRelation.cpp.obj
+.PHONY : src/isAhasAclassRelation.obj
+
+# target to build an object file
+src/isAhasAclassRelation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.obj
+.PHONY : src/isAhasAclassRelation.cpp.obj
+
+src/isAhasAclassRelation.i: src/isAhasAclassRelation.cpp.i
+.PHONY : src/isAhasAclassRelation.i
+
+# target to preprocess a source file
+src/isAhasAclassRelation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.i
+.PHONY : src/isAhasAclassRelation.cpp.i
+
+src/isAhasAclassRelation.s: src/isAhasAclassRelation.cpp.s
+.PHONY : src/isAhasAclassRelation.s
+
+# target to generate assembly for a file
+src/isAhasAclassRelation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.s
+.PHONY : src/isAhasAclassRelation.cpp.s
 
 src/letterCount.obj: src/letterCount.cpp.obj
 .PHONY : src/letterCount.obj
@@ -617,6 +689,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/multiThread.obj: src/multiThread.cpp.obj
+.PHONY : src/multiThread.obj
+
+# target to build an object file
+src/multiThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj
+.PHONY : src/multiThread.cpp.obj
+
+src/multiThread.i: src/multiThread.cpp.i
+.PHONY : src/multiThread.i
+
+# target to preprocess a source file
+src/multiThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/multiThread.cpp.i
+.PHONY : src/multiThread.cpp.i
+
+src/multiThread.s: src/multiThread.cpp.s
+.PHONY : src/multiThread.s
+
+# target to generate assembly for a file
+src/multiThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/multiThread.cpp.s
+.PHONY : src/multiThread.cpp.s
 
 src/observerPattern.obj: src/observerPattern.cpp.obj
 .PHONY : src/observerPattern.obj
@@ -713,6 +809,30 @@ src/shortCodeSnips.s: src/shortCodeSnips.cpp.s
 src/shortCodeSnips.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.s
 .PHONY : src/shortCodeSnips.cpp.s
+
+src/socketServer.obj: src/socketServer.cpp.obj
+.PHONY : src/socketServer.obj
+
+# target to build an object file
+src/socketServer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj
+.PHONY : src/socketServer.cpp.obj
+
+src/socketServer.i: src/socketServer.cpp.i
+.PHONY : src/socketServer.i
+
+# target to preprocess a source file
+src/socketServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/socketServer.cpp.i
+.PHONY : src/socketServer.cpp.i
+
+src/socketServer.s: src/socketServer.cpp.s
+.PHONY : src/socketServer.s
+
+# target to generate assembly for a file
+src/socketServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/socketServer.cpp.s
+.PHONY : src/socketServer.cpp.s
 
 src/stdTempLibs.obj: src/stdTempLibs.cpp.obj
 .PHONY : src/stdTempLibs.obj
@@ -829,15 +949,27 @@ help:
 	@echo ... src/InitCPP.obj
 	@echo ... src/InitCPP.i
 	@echo ... src/InitCPP.s
+	@echo ... src/constPointer.obj
+	@echo ... src/constPointer.i
+	@echo ... src/constPointer.s
+	@echo ... src/cpyCtor.obj
+	@echo ... src/cpyCtor.i
+	@echo ... src/cpyCtor.s
 	@echo ... src/inheritanceClassUses.obj
 	@echo ... src/inheritanceClassUses.i
 	@echo ... src/inheritanceClassUses.s
+	@echo ... src/isAhasAclassRelation.obj
+	@echo ... src/isAhasAclassRelation.i
+	@echo ... src/isAhasAclassRelation.s
 	@echo ... src/letterCount.obj
 	@echo ... src/letterCount.i
 	@echo ... src/letterCount.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/multiThread.obj
+	@echo ... src/multiThread.i
+	@echo ... src/multiThread.s
 	@echo ... src/observerPattern.obj
 	@echo ... src/observerPattern.i
 	@echo ... src/observerPattern.s
@@ -850,6 +982,9 @@ help:
 	@echo ... src/shortCodeSnips.obj
 	@echo ... src/shortCodeSnips.i
 	@echo ... src/shortCodeSnips.s
+	@echo ... src/socketServer.obj
+	@echo ... src/socketServer.i
+	@echo ... src/socketServer.s
 	@echo ... src/stdTempLibs.obj
 	@echo ... src/stdTempLibs.i
 	@echo ... src/stdTempLibs.s

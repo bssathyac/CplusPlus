@@ -6,8 +6,23 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\constPointer.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\constPointer.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/constPointer.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\cpyCtor.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\cpyCtor.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/cpyCtor.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\inheritanceClassUses.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\inheritanceClassUses.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/inheritanceClassUses.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\isAhasAclassRelation.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\isAhasAclassRelation.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/isAhasAclassRelation.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
@@ -18,6 +33,11 @@
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\main.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\main.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/main.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\multiThread.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\multiThread.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/multiThread.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
@@ -38,6 +58,11 @@
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\shortCodeSnips.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\shortCodeSnips.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/shortCodeSnips.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\socketServer.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\socketServer.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/socketServer.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",

@@ -54,12 +54,14 @@ class Subject : public ISubject {
     list_observer_.remove(observer);
   }
   void Notify() override {
-    std::list<IObserver *>::iterator iterator = list_observer_.begin();
+    //std::list<IObserver *>::iterator iterator = list_observer_.begin();
     HowManyObserver();
-    while (iterator != list_observer_.end()) {
-      (*iterator)->Update(message_);
-      ++iterator;
-    }
+    // while (iterator != list_observer_.end()) {
+    //   (*iterator)->Update(message_);
+    //   ++iterator;
+    // }
+    for (const auto &it:list_observer_)
+    {it->Update(message_); }
   }
 
   void CreateMessage(std::string message = "Empty") {
@@ -89,13 +91,16 @@ class Subject : public ISubject {
 
 class Observer : public IObserver {
  public:
-  Observer(Subject &subject) : subject_(subject) {
-    this->subject_.Attach(this);
+  Observer(Subject &subject) : subject_(subject) { // if the initializer list was not used then there will be compiler error
+    //subject_= subject; Error "Observer::Observer(Subject &subject)" provides no initializer for: -- reference member "Observer::subject_"
+    // this->
+    subject_.Attach(this);
     std::cout << "Hi, I'm the Observer \"" << ++Observer::static_number_ << "\".\n";
-    this->number_ = Observer::static_number_;
+    // this->
+    number_ = Observer::static_number_;
   }
   virtual ~Observer() {
-    std::cout << "Goodbye, I was the Observer \"" << this->number_ << "\".\n";
+    std::cout << "Goodbye, I was the Observer \"" << /*this->*/number_ << "\".\n";
   }
 
   void Update(const std::string &message_from_subject) override {
@@ -112,7 +117,10 @@ class Observer : public IObserver {
 
  private:
   std::string message_from_subject_;
-  Subject &subject_;
+  Subject &subject_; // basically it is supposed to be an error because this reference member p is not initialized
+    // with some variable at the same step of its declaration. But it will run in this case. For us, this is the declaration but
+    // not for compiler since it will be inited in the construtor of this class. Compiler considers that line as declaration and
+    // initialization is done at same step.
   static int static_number_;
   int number_;
 };

@@ -31,6 +31,12 @@ int theObserverPattern(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\primesBelowN.cpp has the below function and is linked with CMake
 int findPrimesbelowN(void);
 int sieveOFeratosthenes(void);
-
+//#include D:\TrialProjects\VSCode\InitCPP\src\cpyCtor.cpp has the below function and is linked with CMake
+int copyCtorExplained(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\constPointer.cpp has the below function and is linked with CMake
+int constPtrEg(void);
+int mutableStorageClassSpecifier(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\multiThread.cpp has the below function and is linked with CMake
+// int multiThreadFunc(void); TODO
 
 //int callShapes3dInmain(int argc, char *argv[]);
