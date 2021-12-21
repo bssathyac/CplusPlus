@@ -2,6 +2,7 @@
 #include "D:\TrialProjects\VSCode\InitCPP\header\cppFileHeaders.h"
 int main(int argc, char *argv[])
 {
+    linkedListsFunction();
     // checkTypeCastPromotion();
     // constPtrEg();
     // mutableStorageClassSpecifier();
@@ -30,5 +31,6 @@ int main(int argc, char *argv[])
     // copyCtorExplained();
     // multiThreadFunc(); TODO
     // socketProg();
-   // callShapes3dInmain(argc, &argv[0]);
+    // callShapes3dInmain(argc, &argv[0]);
+    // checkBitFieldOutput();
 }

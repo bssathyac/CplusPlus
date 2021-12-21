@@ -6,6 +6,16 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\LinkedLists.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\LinkedLists.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/LinkedLists.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\bitFields.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\bitFields.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/bitFields.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\constPointer.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\constPointer.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/constPointer.cpp"
 },

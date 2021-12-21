@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
 
-file(GLOB_RECURSE SOURCES
-    *.h
-)
+# file(GLOB_RECURSE SOURCES
+#     *.h
+# )
 
 add_library(libheader
             cppFileHeaders.h

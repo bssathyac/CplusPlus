@@ -546,6 +546,54 @@ src/InitCPP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/InitCPP.cpp.s
 .PHONY : src/InitCPP.cpp.s
 
+src/LinkedLists.obj: src/LinkedLists.cpp.obj
+.PHONY : src/LinkedLists.obj
+
+# target to build an object file
+src/LinkedLists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj
+.PHONY : src/LinkedLists.cpp.obj
+
+src/LinkedLists.i: src/LinkedLists.cpp.i
+.PHONY : src/LinkedLists.i
+
+# target to preprocess a source file
+src/LinkedLists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.i
+.PHONY : src/LinkedLists.cpp.i
+
+src/LinkedLists.s: src/LinkedLists.cpp.s
+.PHONY : src/LinkedLists.s
+
+# target to generate assembly for a file
+src/LinkedLists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.s
+.PHONY : src/LinkedLists.cpp.s
+
+src/bitFields.obj: src/bitFields.cpp.obj
+.PHONY : src/bitFields.obj
+
+# target to build an object file
+src/bitFields.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj
+.PHONY : src/bitFields.cpp.obj
+
+src/bitFields.i: src/bitFields.cpp.i
+.PHONY : src/bitFields.i
+
+# target to preprocess a source file
+src/bitFields.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/bitFields.cpp.i
+.PHONY : src/bitFields.cpp.i
+
+src/bitFields.s: src/bitFields.cpp.s
+.PHONY : src/bitFields.s
+
+# target to generate assembly for a file
+src/bitFields.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/bitFields.cpp.s
+.PHONY : src/bitFields.cpp.s
+
 src/constPointer.obj: src/constPointer.cpp.obj
 .PHONY : src/constPointer.obj
 
@@ -949,6 +997,12 @@ help:
 	@echo ... src/InitCPP.obj
 	@echo ... src/InitCPP.i
 	@echo ... src/InitCPP.s
+	@echo ... src/LinkedLists.obj
+	@echo ... src/LinkedLists.i
+	@echo ... src/LinkedLists.s
+	@echo ... src/bitFields.obj
+	@echo ... src/bitFields.i
+	@echo ... src/bitFields.s
 	@echo ... src/constPointer.obj
 	@echo ... src/constPointer.i
 	@echo ... src/constPointer.s

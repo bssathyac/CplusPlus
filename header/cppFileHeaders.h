@@ -40,5 +40,10 @@ int mutableStorageClassSpecifier(void);
 // int multiThreadFunc(void); TODO
 //#include D:\TrialProjects\VSCode\InitCPP\src\socketServer.cpp has the below function and is linked with CMake
 // int socketProg(void);
+void linkedListsFunction();
+
+//#include D:\TrialProjects\VSCode\InitCPP\src\bitFields.cpp has the below function and is linked with CMake
+int checkBitFieldOutput();
+
 
 //int callShapes3dInmain(int argc, char *argv[]);
