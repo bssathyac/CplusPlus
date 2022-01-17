@@ -1,6 +1,5 @@
-#include <iostream>
 #include <bits/stdc++.h>
-using namespace std;
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
  
 // Function to reverse a string without any built in methods
 void reverseStr(string& str)

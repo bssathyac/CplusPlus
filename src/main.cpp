@@ -1,8 +1,9 @@
 //#include <iostream> not necessary until a built in header func is required to be used in this main.cpp file
 #include "D:\TrialProjects\VSCode\InitCPP\header\cppFileHeaders.h"
+
 int main(int argc, char *argv[])
 {
-    linkedListsFunction();
+     linkedListsFunction();
     // checkTypeCastPromotion();
     // constPtrEg();
     // mutableStorageClassSpecifier();
@@ -33,4 +34,9 @@ int main(int argc, char *argv[])
     // socketProg();
     // callShapes3dInmain(argc, &argv[0]);
     // checkBitFieldOutput();
+    // checkStringArrIndexWithChar();
+    // threadRun();
+    // RevesePolishNotationExmp();
+    // checkSTLvmProps();
+    return 0;
 }

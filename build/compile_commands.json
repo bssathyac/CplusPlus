@@ -46,6 +46,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\mapsVectorSTL.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\mapsVectorSTL.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/mapsVectorSTL.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\multiThread.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\multiThread.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/multiThread.cpp"
 },
@@ -66,6 +71,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\revPolishNotation.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\revPolishNotation.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/revPolishNotation.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\shortCodeSnips.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\shortCodeSnips.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/shortCodeSnips.cpp"
 },
@@ -83,6 +93,11 @@
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\stringRev.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\stringRev.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/stringRev.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\stringSearch.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\stringSearch.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/stringSearch.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",

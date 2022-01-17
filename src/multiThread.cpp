@@ -1,11 +1,185 @@
+
 // // CPP program to demonstrate multithreading
 // // using three different callables.
-#include <iostream>
+#include <thread>
 #include <process.h>
-// #include <thread>
-// using namespace std;
+#include <windows.h>
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
+#include "D:\TrialProjects\VSCode\InitCPP\header\cppFileHeaders.h"
 
-// // A dummy function
+
+int a[ 5 ];
+int cnt = 100;
+
+void Thread( void* pParams )
+{ int i, num = 0;
+
+//   while ( cnt > 0 )
+//   {
+//      for ( i = 0; i < 5; i++ ) a[ i ] = num;
+//      num++;
+//   }
+  linkedListsFunction();
+}
+
+
+
+int noSync( void )
+{
+   _beginthread( Thread, 0, NULL );
+    printf("Case 1 :::===>>> No synchronisation among the threads ");
+   while( cnt > 0 )
+   {
+      printf("%d %d %d %d %d\n",
+             a[ 0 ], a[ 1 ], a[ 2 ],
+             a[ 3 ], a[ 4 ] );
+    cnt--;
+   }
+
+ return 0;
+}
+
+int cnt2 = 100;
+CRITICAL_SECTION cs;
+
+void Thread2( void* pParams )
+{
+  int i, num = 0;
+
+  while ( cnt2 > 0 )
+  {
+     EnterCriticalSection( &cs );
+     for ( i = 0; i < 5; i++ ) a[ i ] = num;
+     LeaveCriticalSection( &cs );
+     num++;
+  }
+}
+
+int criticalSection( void )
+{
+  InitializeCriticalSection( &cs );
+  _beginthread( Thread2, 0, NULL );
+    printf("Case 2 :::===>>> critical section ");
+
+  while( cnt2 > 0 )
+  {
+     EnterCriticalSection( &cs );
+     printf( "%d %d %d %d %d\n",
+             a[ 0 ], a[ 1 ], a[ 2 ],
+             a[ 3 ], a[ 4 ] );
+     LeaveCriticalSection( &cs );
+     cnt2--;
+  }
+  return 0;
+}
+
+HANDLE hMutex;
+int cnt3 = 100;
+
+void Thread3( void* pParams )
+{
+   int i, num = 0;
+
+   while ( cnt3 > 0 )
+   {
+      WaitForSingleObject( hMutex, INFINITE );
+      for ( i = 0; i < 5; i++ ) a[ i ] = num;
+      ReleaseMutex( hMutex );
+      num++;
+   }
+}
+
+int mutexUsage( void )
+{
+   hMutex = CreateMutex( NULL, FALSE, NULL );
+   _beginthread( Thread3, 0, NULL );
+    printf("Case 3 :::===>>> Mutex usage ");
+
+   while( cnt3 > 0 )
+
+   {
+      WaitForSingleObject( hMutex, INFINITE );
+      printf( "%d %d %d %d %d\n",
+              a[ 0 ], a[ 1 ], a[ 2 ],
+              a[ 3 ], a[ 4 ] );
+      ReleaseMutex( hMutex );
+      cnt3--;
+   }
+   return 0;
+}
+
+HANDLE hEvent1, hEvent2;
+int cnt4 = 100;
+
+void Thread4( void* pParams )
+{
+   int i, num = 0;
+
+   while ( cnt4 > 0 )
+   {
+      WaitForSingleObject( hEvent2, INFINITE );
+      for ( i = 0; i < 5; i++ ) a[ i ] = num;
+      SetEvent( hEvent1 );
+      num++;
+   }
+}
+
+int eventUsage( void )
+{
+   hEvent1 = CreateEvent( NULL, FALSE, TRUE, NULL );
+   hEvent2 = CreateEvent( NULL, FALSE, FALSE, NULL );
+
+   _beginthread( Thread4, 0, NULL );
+    printf("Case 4 :::===>>> Event usage ");
+
+   while( cnt4 > 0 )
+   {
+      WaitForSingleObject( hEvent1, INFINITE );
+      printf( "%d %d %d %d %d\n",
+              a[ 0 ], a[ 1 ], a[ 2 ],
+              a[ 3 ], a[ 4 ] );
+      SetEvent( hEvent2 );
+      cnt4--;
+   }
+   return 0;
+}
+
+DWORD WINAPI Thread5(LPVOID lpParameter)
+{
+	unsigned int& myCounter = *((unsigned int*)lpParameter);
+	while(myCounter < 0xFFFFFFFF) ++myCounter;
+	return 0;
+}
+
+int GetCountAtQkeyPress()
+{
+	using namespace std;
+
+	unsigned int myCounter = 0;
+	DWORD myThreadID;
+	HANDLE myHandle = CreateThread(0, 0, Thread5, &myCounter, 0, &myThreadID);
+	char myChar = ' ';
+	while(myChar != 'q') {
+		cout << myCounter << endl;
+		myChar = getchar();
+	}
+	
+	CloseHandle(myHandle);
+	return 0;
+}
+
+int threadRun( void )
+{
+   //   noSync();
+   //  criticalSection();
+   //  mutexUsage();
+   //  eventUsage();
+   GetCountAtQkeyPress();
+    return 0;
+}
+
+
+// A dummy function
 // void foo(int Z)
 // {
 // 	for (int i = 0; i < Z; i++) {

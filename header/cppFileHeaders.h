@@ -1,3 +1,5 @@
+#ifndef INITCPP_MAIN_HEADER_FILE
+#define INITCPP_MAIN_HEADER_FILE
 //#include "D:\TrialProjects\VSCode\InitCPP\src\InitCPP.cpp" has the below function and is linked with CMake
 int varArgfuncUsage(void);
 int checkTypeCastPromotion(void);
@@ -38,12 +40,20 @@ int constPtrEg(void);
 int mutableStorageClassSpecifier(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\multiThread.cpp has the below function and is linked with CMake
 // int multiThreadFunc(void); TODO
+int threadRun( void );
+
 //#include D:\TrialProjects\VSCode\InitCPP\src\socketServer.cpp has the below function and is linked with CMake
 // int socketProg(void);
 void linkedListsFunction();
-
+//#include D:\TrialProjects\VSCode\InitCPP\src\stringSearch.cpp has the below function and is linked with CMake
+void checkStringArrIndexWithChar();
 //#include D:\TrialProjects\VSCode\InitCPP\src\bitFields.cpp has the below function and is linked with CMake
 int checkBitFieldOutput();
-
+//#include D:\TrialProjects\VSCode\InitCPP\src\revPolishNotation.cpp has the below function and is linked with CMake
+void RevesePolishNotationExmp();
+//#include D:\TrialProjects\VSCode\InitCPP\src\mapsVectorSTL.cpp has the below function and is linked with CMake
+void checkSTLvmProps();
 
 //int callShapes3dInmain(int argc, char *argv[]);
+
+#endif // End Of INITCPP_MAIN_HEADER_FILE

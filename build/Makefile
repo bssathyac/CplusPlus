@@ -738,6 +738,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mapsVectorSTL.obj: src/mapsVectorSTL.cpp.obj
+.PHONY : src/mapsVectorSTL.obj
+
+# target to build an object file
+src/mapsVectorSTL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj
+.PHONY : src/mapsVectorSTL.cpp.obj
+
+src/mapsVectorSTL.i: src/mapsVectorSTL.cpp.i
+.PHONY : src/mapsVectorSTL.i
+
+# target to preprocess a source file
+src/mapsVectorSTL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.i
+.PHONY : src/mapsVectorSTL.cpp.i
+
+src/mapsVectorSTL.s: src/mapsVectorSTL.cpp.s
+.PHONY : src/mapsVectorSTL.s
+
+# target to generate assembly for a file
+src/mapsVectorSTL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.s
+.PHONY : src/mapsVectorSTL.cpp.s
+
 src/multiThread.obj: src/multiThread.cpp.obj
 .PHONY : src/multiThread.obj
 
@@ -833,6 +857,30 @@ src/primesBelowN.s: src/primesBelowN.cpp.s
 src/primesBelowN.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.s
 .PHONY : src/primesBelowN.cpp.s
+
+src/revPolishNotation.obj: src/revPolishNotation.cpp.obj
+.PHONY : src/revPolishNotation.obj
+
+# target to build an object file
+src/revPolishNotation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj
+.PHONY : src/revPolishNotation.cpp.obj
+
+src/revPolishNotation.i: src/revPolishNotation.cpp.i
+.PHONY : src/revPolishNotation.i
+
+# target to preprocess a source file
+src/revPolishNotation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.i
+.PHONY : src/revPolishNotation.cpp.i
+
+src/revPolishNotation.s: src/revPolishNotation.cpp.s
+.PHONY : src/revPolishNotation.s
+
+# target to generate assembly for a file
+src/revPolishNotation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.s
+.PHONY : src/revPolishNotation.cpp.s
 
 src/shortCodeSnips.obj: src/shortCodeSnips.cpp.obj
 .PHONY : src/shortCodeSnips.obj
@@ -930,6 +978,30 @@ src/stringRev.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringRev.cpp.s
 .PHONY : src/stringRev.cpp.s
 
+src/stringSearch.obj: src/stringSearch.cpp.obj
+.PHONY : src/stringSearch.obj
+
+# target to build an object file
+src/stringSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj
+.PHONY : src/stringSearch.cpp.obj
+
+src/stringSearch.i: src/stringSearch.cpp.i
+.PHONY : src/stringSearch.i
+
+# target to preprocess a source file
+src/stringSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringSearch.cpp.i
+.PHONY : src/stringSearch.cpp.i
+
+src/stringSearch.s: src/stringSearch.cpp.s
+.PHONY : src/stringSearch.s
+
+# target to generate assembly for a file
+src/stringSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringSearch.cpp.s
+.PHONY : src/stringSearch.cpp.s
+
 src/virtualFunc.obj: src/virtualFunc.cpp.obj
 .PHONY : src/virtualFunc.obj
 
@@ -1021,6 +1093,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/mapsVectorSTL.obj
+	@echo ... src/mapsVectorSTL.i
+	@echo ... src/mapsVectorSTL.s
 	@echo ... src/multiThread.obj
 	@echo ... src/multiThread.i
 	@echo ... src/multiThread.s
@@ -1033,6 +1108,9 @@ help:
 	@echo ... src/primesBelowN.obj
 	@echo ... src/primesBelowN.i
 	@echo ... src/primesBelowN.s
+	@echo ... src/revPolishNotation.obj
+	@echo ... src/revPolishNotation.i
+	@echo ... src/revPolishNotation.s
 	@echo ... src/shortCodeSnips.obj
 	@echo ... src/shortCodeSnips.i
 	@echo ... src/shortCodeSnips.s
@@ -1045,6 +1123,9 @@ help:
 	@echo ... src/stringRev.obj
 	@echo ... src/stringRev.i
 	@echo ... src/stringRev.s
+	@echo ... src/stringSearch.obj
+	@echo ... src/stringSearch.i
+	@echo ... src/stringSearch.s
 	@echo ... src/virtualFunc.obj
 	@echo ... src/virtualFunc.i
 	@echo ... src/virtualFunc.s

@@ -3,9 +3,7 @@
 // A House has an occupant (aggregation);
 // A House uses an internet provider (association);
 
-#include<iostream>
-using namespace std;
-
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
 class Car {
 	// Methods implementation and class/Instance members
 	private:

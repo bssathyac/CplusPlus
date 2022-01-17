@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
 
 void swap(char *xp, char *yp) 
 { 

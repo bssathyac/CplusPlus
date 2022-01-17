@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
 
 int constPtrEg()
 {

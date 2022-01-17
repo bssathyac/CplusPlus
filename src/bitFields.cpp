@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
+
 struct test {
 	unsigned int x;
 	unsigned int y : 33;

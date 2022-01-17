@@ -203,11 +203,26 @@ CMakeFiles/InitCPP.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/main.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\main.cpp -o CMakeFiles\InitCPP.dir\src\main.cpp.s
 
+CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
+CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
+CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj: ../src/mapsVectorSTL.cpp
+CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj -MF CMakeFiles\InitCPP.dir\src\mapsVectorSTL.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\mapsVectorSTL.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\mapsVectorSTL.cpp
+
+CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\TrialProjects\VSCode\InitCPP\src\mapsVectorSTL.cpp > CMakeFiles\InitCPP.dir\src\mapsVectorSTL.cpp.i
+
+CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\mapsVectorSTL.cpp -o CMakeFiles\InitCPP.dir\src\mapsVectorSTL.cpp.s
+
 CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
 CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj: ../src/multiThread.cpp
 CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj -MF CMakeFiles\InitCPP.dir\src\multiThread.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\multiThread.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\multiThread.cpp
 
 CMakeFiles/InitCPP.dir/src/multiThread.cpp.i: cmake_force
@@ -222,7 +237,7 @@ CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj: CMakeFiles/InitCPP.dir/flags
 CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj: ../src/observerPattern.cpp
 CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj -MF CMakeFiles\InitCPP.dir\src\observerPattern.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\observerPattern.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\observerPattern.cpp
 
 CMakeFiles/InitCPP.dir/src/observerPattern.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: CMakeFiles/InitCPP.dir/f
 CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: ../src/operatorOverloading.cpp
 CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj -MF CMakeFiles\InitCPP.dir\src\operatorOverloading.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\operatorOverloading.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\operatorOverloading.cpp
 
 CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj: CMakeFiles/InitCPP.dir/flags.ma
 CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj: ../src/primesBelowN.cpp
 CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj -MF CMakeFiles\InitCPP.dir\src\primesBelowN.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\primesBelowN.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\primesBelowN.cpp
 
 CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.i: cmake_force
@@ -263,11 +278,26 @@ CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\primesBelowN.cpp -o CMakeFiles\InitCPP.dir\src\primesBelowN.cpp.s
 
+CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
+CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
+CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj: ../src/revPolishNotation.cpp
+CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj -MF CMakeFiles\InitCPP.dir\src\revPolishNotation.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\revPolishNotation.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\revPolishNotation.cpp
+
+CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\TrialProjects\VSCode\InitCPP\src\revPolishNotation.cpp > CMakeFiles\InitCPP.dir\src\revPolishNotation.cpp.i
+
+CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\revPolishNotation.cpp -o CMakeFiles\InitCPP.dir\src\revPolishNotation.cpp.s
+
 CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
 CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: ../src/shortCodeSnips.cpp
 CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj -MF CMakeFiles\InitCPP.dir\src\shortCodeSnips.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\shortCodeSnips.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\shortCodeSnips.cpp
 
 CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.i: cmake_force
@@ -282,7 +312,7 @@ CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj: CMakeFiles/InitCPP.dir/flags.ma
 CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj: ../src/socketServer.cpp
 CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj -MF CMakeFiles\InitCPP.dir\src\socketServer.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\socketServer.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\socketServer.cpp
 
 CMakeFiles/InitCPP.dir/src/socketServer.cpp.i: cmake_force
@@ -297,7 +327,7 @@ CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: CMakeFiles/InitCPP.dir/flags.mak
 CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: ../src/stdTempLibs.cpp
 CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj -MF CMakeFiles\InitCPP.dir\src\stdTempLibs.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\stdTempLibs.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\stdTempLibs.cpp
 
 CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.i: cmake_force
@@ -312,7 +342,7 @@ CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: ../src/stringRev.cpp
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj -MF CMakeFiles\InitCPP.dir\src\stringRev.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\stringRev.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\stringRev.cpp
 
 CMakeFiles/InitCPP.dir/src/stringRev.cpp.i: cmake_force
@@ -323,11 +353,26 @@ CMakeFiles/InitCPP.dir/src/stringRev.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/stringRev.cpp.s"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\stringRev.cpp -o CMakeFiles\InitCPP.dir\src\stringRev.cpp.s
 
+CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
+CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
+CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj: ../src/stringSearch.cpp
+CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj -MF CMakeFiles\InitCPP.dir\src\stringSearch.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\stringSearch.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\stringSearch.cpp
+
+CMakeFiles/InitCPP.dir/src/stringSearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InitCPP.dir/src/stringSearch.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\TrialProjects\VSCode\InitCPP\src\stringSearch.cpp > CMakeFiles\InitCPP.dir\src\stringSearch.cpp.i
+
+CMakeFiles/InitCPP.dir/src/stringSearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InitCPP.dir/src/stringSearch.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\TrialProjects\VSCode\InitCPP\src\stringSearch.cpp -o CMakeFiles\InitCPP.dir\src\stringSearch.cpp.s
+
 CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: CMakeFiles/InitCPP.dir/flags.make
 CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: CMakeFiles/InitCPP.dir/includes_CXX.rsp
 CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: ../src/virtualFunc.cpp
 CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj: CMakeFiles/InitCPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj"
 	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj -MF CMakeFiles\InitCPP.dir\src\virtualFunc.cpp.obj.d -o CMakeFiles\InitCPP.dir\src\virtualFunc.cpp.obj -c D:\TrialProjects\VSCode\InitCPP\src\virtualFunc.cpp
 
 CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.i: cmake_force
@@ -349,14 +394,17 @@ InitCPP_OBJECTS = \
 "CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/letterCount.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/main.cpp.obj" \
+"CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj" \
+"CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj" \
+"CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj" \
 "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj"
 
 # External object files for target InitCPP
@@ -371,20 +419,23 @@ InitCPP.exe: CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/letterCount.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/main.cpp.obj
+InitCPP.exe: CMakeFiles/InitCPP.dir/src/mapsVectorSTL.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj
+InitCPP.exe: CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/socketServer.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj
+InitCPP.exe: CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj
 InitCPP.exe: CMakeFiles/InitCPP.dir/build.make
 InitCPP.exe: CMakeFiles/InitCPP.dir/linklibs.rsp
 InitCPP.exe: CMakeFiles/InitCPP.dir/objects1.rsp
 InitCPP.exe: CMakeFiles/InitCPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable InitCPP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\TrialProjects\VSCode\InitCPP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable InitCPP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\InitCPP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

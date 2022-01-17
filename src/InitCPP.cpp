@@ -6,12 +6,10 @@
 // Description : Hello World in C, Ansi-style
 //============================================================================
 
-#include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
-#include <iostream>
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
 
-using namespace std;
 
 void WriteFormatted (FILE * stream, const char * format, ...)
 {

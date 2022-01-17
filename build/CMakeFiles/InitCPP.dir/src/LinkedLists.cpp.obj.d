@@ -1,5 +1,6 @@
 CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj: \
  D:\TrialProjects\VSCode\InitCPP\src\LinkedLists.cpp \
+ D:\TrialProjects\VSCode\InitCPP\header\linkedList.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\os_defines.h \
@@ -105,5 +106,8 @@ CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc \
- D:\TrialProjects\VSCode\InitCPP\header\linkedList.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\stdlib.h
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\stdlib.h \
+ D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstring \
+ c:\mingw\include\string.h c:\mingw\include\strings.h \
+ c:\mingw\include\wchar.h

@@ -1,7 +1,5 @@
 #include <algorithm>
-#include <iostream>
- 
-using namespace std;
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
  
 void show(int a[], int array_size)
 {

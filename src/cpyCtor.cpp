@@ -1,7 +1,4 @@
-
-#include<iostream>
-#include<cstring>
-using namespace std;
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
  
 class myStr
 {

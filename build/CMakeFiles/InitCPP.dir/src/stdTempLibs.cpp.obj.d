@@ -49,6 +49,9 @@ CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\memoryfwd.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\uniform_int_dist.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\limits \
+ D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h \
+ c:\mingw\include\stdio.h c:\mingw\include\sys/types.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\stdarg.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ios \
@@ -58,8 +61,6 @@ CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cwchar \
  c:\mingw\include\wchar.h c:\mingw\include\wctype.h \
  c:\mingw\include\sys\types.h c:\mingw\include\stdio.h \
- c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\stdarg.h \
  c:\mingw\include\stdlib.h c:\mingw\include\direct.h \
  c:\mingw\include\sys/stat.h c:\mingw\include\conio.h \
  c:\mingw\include\io.h c:\mingw\include\stdint.h c:\mingw\include\time.h \
@@ -93,7 +94,6 @@ CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_string.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\ext\string_conversions.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstdio \
- c:\mingw\include\stdio.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cerrno \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\functional_hash.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_string.tcc \
@@ -113,4 +113,7 @@ CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstring \
+ c:\mingw\include\string.h c:\mingw\include\strings.h \
+ c:\mingw\include\wchar.h

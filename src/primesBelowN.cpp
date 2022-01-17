@@ -1,6 +1,5 @@
-#include<iostream>
+#include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
 #include <bits/stdc++.h>
-using namespace std;
 
 class primesN
 {   

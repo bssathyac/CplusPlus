@@ -80,7 +80,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				2,
 				3,
 				4,
 				5,
@@ -97,7 +96,11 @@
 				16,
 				17,
 				18,
-				19
+				19,
+				20,
+				21,
+				22,
+				23
 			]
 		}
 	],
@@ -135,14 +138,14 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				2,
 				3,
 				4,
 				5,
@@ -159,12 +162,21 @@
 				16,
 				17,
 				18,
-				19
+				19,
+				20,
+				21,
+				22,
+				23
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"path" : "header/commonHeaders.h",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"path" : "header/cppFileHeaders.h",
@@ -232,6 +244,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/mapsVectorSTL.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/multiThread.cpp",
 			"sourceGroupIndex" : 1
 		},
@@ -256,6 +274,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/revPolishNotation.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/shortCodeSnips.cpp",
 			"sourceGroupIndex" : 1
 		},
@@ -275,6 +299,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/stringRev.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stringSearch.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
