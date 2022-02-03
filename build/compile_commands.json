@@ -71,6 +71,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\recursion.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\recursion.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/recursion.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\revPolishNotation.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\revPolishNotation.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/revPolishNotation.cpp"
 },
@@ -78,6 +83,11 @@
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\shortCodeSnips.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\shortCodeSnips.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/shortCodeSnips.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\smartAndUniqPtr.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\smartAndUniqPtr.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/smartAndUniqPtr.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",

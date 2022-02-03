@@ -858,6 +858,30 @@ src/primesBelowN.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.s
 .PHONY : src/primesBelowN.cpp.s
 
+src/recursion.obj: src/recursion.cpp.obj
+.PHONY : src/recursion.obj
+
+# target to build an object file
+src/recursion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/recursion.cpp.obj
+.PHONY : src/recursion.cpp.obj
+
+src/recursion.i: src/recursion.cpp.i
+.PHONY : src/recursion.i
+
+# target to preprocess a source file
+src/recursion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/recursion.cpp.i
+.PHONY : src/recursion.cpp.i
+
+src/recursion.s: src/recursion.cpp.s
+.PHONY : src/recursion.s
+
+# target to generate assembly for a file
+src/recursion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/recursion.cpp.s
+.PHONY : src/recursion.cpp.s
+
 src/revPolishNotation.obj: src/revPolishNotation.cpp.obj
 .PHONY : src/revPolishNotation.obj
 
@@ -905,6 +929,30 @@ src/shortCodeSnips.s: src/shortCodeSnips.cpp.s
 src/shortCodeSnips.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/shortCodeSnips.cpp.s
 .PHONY : src/shortCodeSnips.cpp.s
+
+src/smartAndUniqPtr.obj: src/smartAndUniqPtr.cpp.obj
+.PHONY : src/smartAndUniqPtr.obj
+
+# target to build an object file
+src/smartAndUniqPtr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/smartAndUniqPtr.cpp.obj
+.PHONY : src/smartAndUniqPtr.cpp.obj
+
+src/smartAndUniqPtr.i: src/smartAndUniqPtr.cpp.i
+.PHONY : src/smartAndUniqPtr.i
+
+# target to preprocess a source file
+src/smartAndUniqPtr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/smartAndUniqPtr.cpp.i
+.PHONY : src/smartAndUniqPtr.cpp.i
+
+src/smartAndUniqPtr.s: src/smartAndUniqPtr.cpp.s
+.PHONY : src/smartAndUniqPtr.s
+
+# target to generate assembly for a file
+src/smartAndUniqPtr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/smartAndUniqPtr.cpp.s
+.PHONY : src/smartAndUniqPtr.cpp.s
 
 src/socketServer.obj: src/socketServer.cpp.obj
 .PHONY : src/socketServer.obj
@@ -1108,12 +1156,18 @@ help:
 	@echo ... src/primesBelowN.obj
 	@echo ... src/primesBelowN.i
 	@echo ... src/primesBelowN.s
+	@echo ... src/recursion.obj
+	@echo ... src/recursion.i
+	@echo ... src/recursion.s
 	@echo ... src/revPolishNotation.obj
 	@echo ... src/revPolishNotation.i
 	@echo ... src/revPolishNotation.s
 	@echo ... src/shortCodeSnips.obj
 	@echo ... src/shortCodeSnips.i
 	@echo ... src/shortCodeSnips.s
+	@echo ... src/smartAndUniqPtr.obj
+	@echo ... src/smartAndUniqPtr.i
+	@echo ... src/smartAndUniqPtr.s
 	@echo ... src/socketServer.obj
 	@echo ... src/socketServer.i
 	@echo ... src/socketServer.s

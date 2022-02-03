@@ -53,6 +53,12 @@ int checkBitFieldOutput();
 void RevesePolishNotationExmp();
 //#include D:\TrialProjects\VSCode\InitCPP\src\mapsVectorSTL.cpp has the below function and is linked with CMake
 void checkSTLvmProps();
+//#include D:\TrialProjects\VSCode\InitCPP\src\smartAndUniqPtr.cpp has the below function and is linked with CMake
+int smartPtrUsage();
+//#include D:\TrialProjects\VSCode\InitCPP\src\recursion.cpp has the below function and is linked with CMake
+int checkFactorial();
+
+
 
 //int callShapes3dInmain(int argc, char *argv[]);
 

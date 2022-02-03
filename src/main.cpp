@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-     linkedListsFunction();
+    // linkedListsFunction();
     // checkTypeCastPromotion();
     // constPtrEg();
     // mutableStorageClassSpecifier();
@@ -38,5 +38,7 @@ int main(int argc, char *argv[])
     // threadRun();
     // RevesePolishNotationExmp();
     // checkSTLvmProps();
+    // smartPtrUsage();
+    checkFactorial();
     return 0;
 }
