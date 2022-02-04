@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // revStrUsingTempStrPushBack();
     // getTheStringLength();
     // fileReOPENwithStdinStdout();
-    virtualFuncUsage1();
+    // virtualFuncUsage1();
     // virtualMethodCtorDtor();
     // ctorDtorCallSeq();
     // addComplexNos();
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     // factoryCreateMethodDemo();
     // singletonMethodDemo();
     // diamondInheritanceCase();
-    // dynamicCastUsage();
+    dynamicCastUsage();
     // sortFuncFromAlgorithmLib();
     // theObserverPattern();
     // findPrimesbelowN();

@@ -304,10 +304,51 @@ class MyClass2 {
 };
 class MyClass3: public MyClass1, public MyClass2 {
    public:
+      int myC3int = 10;
+
       void print()const {
          cout << "This is from MyClass3\n";
       }
 };
+
+struct A1 {
+  virtual void f() { cout << "Class A1" << endl; }
+};
+
+struct B2 : public A1 {
+  virtual void f() { cout << "Class B2" << endl; }
+};
+
+struct C3 : public A1 {
+  virtual void f() { cout << "Class C3" << endl; }
+};
+
+void f(A1* arg) {
+  B2* bp = dynamic_cast<B2*>(arg);
+  C3* cp = dynamic_cast<C3*>(arg);
+
+  if (bp)
+    bp->f();
+  else if (cp)
+    cp->f();
+  else
+    arg->f();
+};
+
+int dynamicCastUsage2() {
+  A1 aobj;
+  B2 bobj;
+  C3 cobj;
+  A1* ap = &cobj;
+  A1* ap2 = &aobj;
+  A1* ap3 = &bobj;
+  f(ap);
+  f(ap2);
+  f(ap3);
+
+  return 0;
+}
+
 int dynamicCastUsage()
 {
    MyClass1* a = new MyClass1;
@@ -321,13 +362,16 @@ int dynamicCastUsage()
       b->print();
    else
       cout << "no MyClass2\n";
-   a = c;
+   a = c; // Explanation: A base class pointer can point to a derived class object, but we can only access base class member or virtual functions using the base class pointer because object slicing happens when a derived class object is assigned to a base class object. 
+            //    Additional attributes of a derived class object are sliced off to form the base class object.
    a -> print(); //Printing from MyClass3
    b = dynamic_cast< MyClass2*>(a); //Successfully casting is done
    if (b)
       b -> print();
    else
       cout << "no MyClass2\n";
+    
+    dynamicCastUsage2();
 
       return 0;
 }
