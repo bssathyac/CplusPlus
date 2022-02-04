@@ -145,7 +145,7 @@ private:
 };
   
 //// UTILITY END
-  
+
 //// Consumer of User (UTILITY) class
 int factoryCreateMethodDemo()
 {
@@ -164,7 +164,7 @@ int factoryCreateMethodDemo()
     User usr;
   
     delete user;
-
+    
     return 0;
 }
 
@@ -211,7 +211,7 @@ int singletonMethodDemo()
 
     /* The addresses will be the same. */
     std::cout << s << "\t: ptr s addr" <<sizeof(s) << "\n";
-    std::cout << r << "\t: ptr t addr" <<sizeof(r) << "\n";
+    std::cout << r << "\t: ptr r addr" <<sizeof(r) << "\n";
 
     s->updateMyObj(10);
     s->printMyObj();
@@ -290,3 +290,44 @@ int diamondInheritanceCase() // code will not compile when B  and  C class are n
     return 0;
 }
 
+class MyClass1 {
+   public:
+      virtual void print()const {
+         cout << "This is from MyClass1\n";
+      }
+};
+class MyClass2 {
+   public:
+      virtual void print()const {
+         cout << "This is from MyClass2\n";
+      }
+};
+class MyClass3: public MyClass1, public MyClass2 {
+   public:
+      void print()const {
+         cout << "This is from MyClass3\n";
+      }
+};
+int dynamicCastUsage()
+{
+   MyClass1* a = new MyClass1;
+   MyClass2* b = new MyClass2;
+   MyClass3* c = new MyClass3;
+   a -> print();
+   b -> print();
+   c -> print();
+   b = dynamic_cast< MyClass2*>(a); //This cast will be failed
+   if (b)
+      b->print();
+   else
+      cout << "no MyClass2\n";
+   a = c;
+   a -> print(); //Printing from MyClass3
+   b = dynamic_cast< MyClass2*>(a); //Successfully casting is done
+   if (b)
+      b -> print();
+   else
+      cout << "no MyClass2\n";
+
+      return 0;
+}

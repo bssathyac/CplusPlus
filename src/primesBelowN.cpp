@@ -126,12 +126,11 @@ int sieveOFeratosthenes()
     int N = 311 ; // Must be less than MAX_SIZE
  
     manipulated_seive(N);
- 
     // print all prime number less then N
     for (int i=0; i<prime.size() && prime[i] <= N ; i++)
         cout << prime[i] << " ";
  
-        cout << "Following are the prime numbers smaller "
+    cout << "Following are the prime numbers smaller "
          << " than or equal to " << N << endl;
     SieveOfEratosthenes(N);
 

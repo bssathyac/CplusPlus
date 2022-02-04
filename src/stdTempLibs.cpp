@@ -17,10 +17,10 @@ int sortFuncFromAlgorithmLib()
     cout << "The array before sorting is : \n";
    
     // print the array
-    show(a, asize);
+    show(a, asize); 
  
       // sort the array
-    sort(a, a + asize);
+    sort(a, a + asize); // args are start and end address of array
  
     cout << "\n\nThe array after sorting is :\n";
    

@@ -26,6 +26,8 @@ int subComplexNos(void);
 int factoryCreateMethodDemo(void);
 int singletonMethodDemo(void);
 int diamondInheritanceCase(void);
+int dynamicCastUsage(void); // forward declaration
+
 //#include D:\TrialProjects\VSCode\InitCPP\src\stdTempLibs.cpp has the below function and is linked with CMake
 int sortFuncFromAlgorithmLib(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\observerPattern.cpp has the below function and is linked with CMake

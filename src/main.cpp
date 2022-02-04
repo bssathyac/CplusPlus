@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // revStrUsingTempStrPushBack();
     // getTheStringLength();
     // fileReOPENwithStdinStdout();
-    // virtualFuncUsage1();
+    virtualFuncUsage1();
     // virtualMethodCtorDtor();
     // ctorDtorCallSeq();
     // addComplexNos();
@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
     // factoryCreateMethodDemo();
     // singletonMethodDemo();
     // diamondInheritanceCase();
+    // dynamicCastUsage();
     // sortFuncFromAlgorithmLib();
     // theObserverPattern();
     // findPrimesbelowN();
@@ -39,6 +40,6 @@ int main(int argc, char *argv[])
     // RevesePolishNotationExmp();
     // checkSTLvmProps();
     // smartPtrUsage();
-    checkFactorial();
+    // checkFactorial();
     return 0;
 }

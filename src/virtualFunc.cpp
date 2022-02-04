@@ -31,12 +31,14 @@ int virtualFuncUsage1(void)
     d.show();
     b.show();
     
-    //cout<<"==============================> In Func virtualFuncUsage1 C \n";
-    //dptr = &b;  compilation error
+    cout<<"==============================> In Func virtualFuncUsage1 C \n";
+    //dptr = &b;  compilation error and first of All, this is meaningless since dptr can access base already with scope resolution operator
     //dptr = &d; exclude this line to cause invalid pointer access from next line
     //dptr->show(); crashes the prog exec abruptly and does not execute any further func calls in main
     //if (dptr == NULL) { cout << "unassigned pointer dptr \n"; }
-    dptr = dynamic_cast<vDerived*>(bptr);
+    // dptr = dynamic_cast<vDerived*>(bptr); // base class does not have a derived class func imp in usual case since a new member will added with the base functionality
+    dptr->vBase::show();
+
  
     return 0;
 }
