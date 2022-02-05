@@ -25,7 +25,8 @@ int main(int argc, char *argv[])
     // factoryCreateMethodDemo();
     // singletonMethodDemo();
     // diamondInheritanceCase();
-    dynamicCastUsage();
+    // dynamicCastUsage();
+    // dynAllocMemCandCPP();
     // sortFuncFromAlgorithmLib();
     // theObserverPattern();
     // findPrimesbelowN();
@@ -40,6 +41,6 @@ int main(int argc, char *argv[])
     // RevesePolishNotationExmp();
     // checkSTLvmProps();
     // smartPtrUsage();
-    // checkFactorial();
+    checkRecursion();
     return 0;
 }

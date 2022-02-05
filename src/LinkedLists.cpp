@@ -330,7 +330,7 @@ st_nodeEle * st_p_getMidNodeOfLinkLst(st_nodeEle *st_ap_Head)
     return st_tp_Mid;
 }
 
-void linkedListsFunction()
+void linkedListsFunction(void)
 {
     cout << "print this \n Hello World! \n" ;//<< (int)HEADER_VERSION_MAJOR_VERSION_MINOR;
     int num;

@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/bitFields.cpp" "CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/constPointer.cpp" "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/cpyCtor.cpp" "CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/dynAlloc.cpp" "CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/inheritanceClassUses.cpp" "CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/isAhasAclassRelation.cpp" "CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/letterCount.cpp" "CMakeFiles/InitCPP.dir/src/letterCount.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/letterCount.cpp.obj.d"

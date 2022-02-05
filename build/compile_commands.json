@@ -26,6 +26,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\dynAlloc.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\dynAlloc.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/dynAlloc.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\inheritanceClassUses.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\inheritanceClassUses.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/inheritanceClassUses.cpp"
 },

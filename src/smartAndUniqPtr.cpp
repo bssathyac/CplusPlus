@@ -107,7 +107,7 @@ int voidPtrUsage()
     return 0;
 }
 
-int smartPtrUsage()
+int smartPtrUsage(void)
 {
     SmartPtr<int> ptr(new int());
     *ptr = 20;

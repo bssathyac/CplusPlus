@@ -57,7 +57,7 @@ void checkStringPassByRef(string &str_ap_arg)
 
 }
 
-void checkStringArrIndexWithChar()
+void checkStringArrIndexWithChar(void)
 {
     string str_t_input;
     string myStr = "alternatively";

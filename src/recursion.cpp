@@ -19,3 +19,45 @@ void checkFactorial()
     int f;
     cout << getFact(5) << "\n";
 }
+
+int getRemainder(int arg1, int arg2)
+{
+    int i_t_rmdr, t1, t2;
+    if (arg1 > arg2)
+    {
+        t1 = arg1;
+        t2 = arg2;
+    }
+    else
+    {
+        t2 = arg1;
+        t1 = arg2;
+    }
+
+    i_t_rmdr = t1 % t2;
+
+    return i_t_rmdr;
+}
+
+int checkGCD(int num1, int num2)
+{
+    int t_rmndr, t_max;
+
+    t_rmndr = getRemainder(num1, num2);
+    t_max = num1 > num2 ? num1 : num2;
+
+    if (t_rmndr != 0)
+    {
+        checkGCD(t_rmndr, t_max);
+    }
+
+    return t_rmndr;
+}
+
+int checkRecursion(void)
+{
+    checkFactorial();
+    cout << checkGCD(48,18) << "\n";
+
+    return 0;
+}

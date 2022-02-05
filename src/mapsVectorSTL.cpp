@@ -34,7 +34,7 @@ void spaceShipOperator()
     cout << c <<"/n";
 }
 
-void checkSTLvmProps()
+void checkSTLvmProps(void)
 {
     checkVectorProps();
     spaceShipOperator();

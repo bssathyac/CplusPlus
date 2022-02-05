@@ -110,7 +110,7 @@ return 0;
 }
 
 
-int checkBitFieldOutput()
+int checkBitFieldOutput(void)
 {
 	printf("%lu \n", sizeof(int));
 	printf("%lu \n", sizeof(struct test));

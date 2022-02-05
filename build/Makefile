@@ -642,6 +642,30 @@ src/cpyCtor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.s
 .PHONY : src/cpyCtor.cpp.s
 
+src/dynAlloc.obj: src/dynAlloc.cpp.obj
+.PHONY : src/dynAlloc.obj
+
+# target to build an object file
+src/dynAlloc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.obj
+.PHONY : src/dynAlloc.cpp.obj
+
+src/dynAlloc.i: src/dynAlloc.cpp.i
+.PHONY : src/dynAlloc.i
+
+# target to preprocess a source file
+src/dynAlloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.i
+.PHONY : src/dynAlloc.cpp.i
+
+src/dynAlloc.s: src/dynAlloc.cpp.s
+.PHONY : src/dynAlloc.s
+
+# target to generate assembly for a file
+src/dynAlloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.s
+.PHONY : src/dynAlloc.cpp.s
+
 src/inheritanceClassUses.obj: src/inheritanceClassUses.cpp.obj
 .PHONY : src/inheritanceClassUses.obj
 
@@ -1129,6 +1153,9 @@ help:
 	@echo ... src/cpyCtor.obj
 	@echo ... src/cpyCtor.i
 	@echo ... src/cpyCtor.s
+	@echo ... src/dynAlloc.obj
+	@echo ... src/dynAlloc.i
+	@echo ... src/dynAlloc.s
 	@echo ... src/inheritanceClassUses.obj
 	@echo ... src/inheritanceClassUses.i
 	@echo ... src/inheritanceClassUses.s

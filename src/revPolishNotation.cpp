@@ -103,7 +103,7 @@ void getStackQueueRPNlikeNotatn(string str_a_argStr)
 
 }
 
-void RevesePolishNotationExmp()
+void RevesePolishNotationExmp(void)
 {
     string str_t_inputStr;
     cout << "Enter a string in reverse polish notation separated by a comma (,) \n";

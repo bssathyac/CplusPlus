@@ -46,19 +46,21 @@ int threadRun( void );
 
 //#include D:\TrialProjects\VSCode\InitCPP\src\socketServer.cpp has the below function and is linked with CMake
 // int socketProg(void);
-void linkedListsFunction();
+void linkedListsFunction(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\stringSearch.cpp has the below function and is linked with CMake
-void checkStringArrIndexWithChar();
+void checkStringArrIndexWithChar(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\bitFields.cpp has the below function and is linked with CMake
-int checkBitFieldOutput();
+int checkBitFieldOutput(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\revPolishNotation.cpp has the below function and is linked with CMake
-void RevesePolishNotationExmp();
+void RevesePolishNotationExmp(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\mapsVectorSTL.cpp has the below function and is linked with CMake
-void checkSTLvmProps();
+void checkSTLvmProps(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\smartAndUniqPtr.cpp has the below function and is linked with CMake
-int smartPtrUsage();
+int smartPtrUsage(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\recursion.cpp has the below function and is linked with CMake
-int checkFactorial();
+int checkRecursion(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\dynAlloc.cpp has the below function and is linked with CMake
+int dynAllocMemCandCPP(void);
 
 
 

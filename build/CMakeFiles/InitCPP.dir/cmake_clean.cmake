@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj.d"
   "CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj"
   "CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj.d"
+  "CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.obj"
+  "CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.obj.d"
   "CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.obj"
   "CMakeFiles/InitCPP.dir/src/inheritanceClassUses.cpp.obj.d"
   "CMakeFiles/InitCPP.dir/src/isAhasAclassRelation.cpp.obj"
