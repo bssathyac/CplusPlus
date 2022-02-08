@@ -61,8 +61,14 @@ int smartPtrUsage(void);
 int checkRecursion(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\dynAlloc.cpp has the below function and is linked with CMake
 int dynAllocMemCandCPP(void);
-
-
+//#include D:\TrialProjects\VSCode\InitCPP\src\pointerToClassMemDirect.cpp has the below function and is linked with CMake
+int illustratePtrToClassMembrs(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\testLuxoft.cpp has the below function and is linked with CMake
+int checkException(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\binaryGap.cpp has the below function and is linked with CMake
+int checkBinaryGapSln(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\vecArrayRotate.cpp has the below function and is linked with CMake
+int checkRotateVec(void);
 
 //int callShapes3dInmain(int argc, char *argv[]);
 

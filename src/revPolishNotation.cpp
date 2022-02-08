@@ -8,42 +8,41 @@ void getStackQueueRPNlikeNotatn(string str_a_argStr)
     string str_t_tmpstr, st_t_exprsnStr;
     stack<string> in_nos;
     queue<string> in_exprsn;
-        str_t_tmpstr.clear();
-        cout<< str_a_argStr << "\t";
+    str_t_tmpstr.clear();
+    cout << "The given input [ "<< str_a_argStr << " ] corresponds to RPN as follows : \n";
     bool exitFlag = false;
     bool typeInt = false;
     bool dot = false;
+
     while(str_a_argStr[i] != '\0')
     {
         typeInt = false;
 
-        while ( 
+        while ( // this loop is for fetching any floating point numbers present in the given str
             (str_a_argStr[i] != ',') &&
             (str_a_argStr[i] != ' ') &&
             (exitFlag != true)
         )
         {
             str_t_tmpstr.push_back(str_a_argStr[i]);
-            if(
+            if (
             (str_a_argStr[i] >= '0') &&
             (str_a_argStr[i] <= '9')
             )
             { typeInt = true; }
+
             if (str_a_argStr[i] == '.') dot = true;
             i++;
             typeInt &= typeInt;
-            dot += dot;
+            // dot += dot;
             if (str_a_argStr[i] == '\0')    exitFlag = true;
         }
+
         if (exitFlag != true)   i++;
         if (typeInt == true) {  in_nos.push(str_t_tmpstr);  }
         else {  in_exprsn.push(str_t_tmpstr);   }
         str_t_tmpstr.clear();
     }
-
-    string num;
-        cout<< "\t \n";
-        cout << "\t Number StackSize " << in_nos.size() << "\n";
 
     // for( ; in_nos.size() > 0; ) 
     // { 
@@ -52,9 +51,6 @@ void getStackQueueRPNlikeNotatn(string str_a_argStr)
     //     in_nos.pop();
     // }
 
-    cout<< "\t \n";
-        cout << "\t Operation QueueSize " << in_exprsn.size() << "\n";
-
     // for( ; in_exprsn.size() > 0; ) 
     // { 
     //     num = in_exprsn.front();
@@ -62,6 +58,7 @@ void getStackQueueRPNlikeNotatn(string str_a_argStr)
     //     in_exprsn.pop();
     // }
     
+    string num;
     string lfelips = "( ";
     string rtelips = " )";
     int elipsCount = 0;
@@ -101,14 +98,19 @@ void getStackQueueRPNlikeNotatn(string str_a_argStr)
     { cout << "("; }
     cout << st_t_exprsnStr << "\n";
 
+    cout<< "\n";
+    cout << "[ Number StackSize " << in_nos.size();        
+    cout << "\t Operation QueueSize " << in_exprsn.size() << "] \n";
+
 }
 
 void RevesePolishNotationExmp(void)
 {
     string str_t_inputStr;
-    cout << "Enter a string in reverse polish notation separated by a comma (,) \n";
-    getline(cin, str_t_inputStr);
+    cout << "\n Enter a string in reverse polish notation separated by a comma (,) \n";
+    getchar();
+    cin >> str_t_inputStr;
+    // getline(cin, str_t_inputStr);
     // cin.getline (about_y, MAX_ABOUT_LEN, '$');    //$ is a delimiter
-    cout << "The given input corresponds to RPN as follows : \n \t";
     getStackQueueRPNlikeNotatn(str_t_inputStr);
 } 

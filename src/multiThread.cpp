@@ -159,10 +159,16 @@ int GetCountAtQkeyPress()
 	DWORD myThreadID;
 	HANDLE myHandle = CreateThread(0, 0, Thread5, &myCounter, 0, &myThreadID);
 	char myChar = ' ';
-	while(myChar != 'q') {
-		cout << myCounter << endl;
+   int repeats = 10;
+	while (
+      (myChar != 'q')  &&
+      (repeats > 1)
+   )
+   {
+		cout << myCounter << "\n";
 		myChar = getchar();
-	}
+      repeats--;
+   }
 	
 	CloseHandle(myHandle);
 	return 0;
@@ -174,6 +180,7 @@ int threadRun( void )
    //  criticalSection();
    //  mutexUsage();
    //  eventUsage();
+   cout << "Press 'q' to exit \n";
    GetCountAtQkeyPress();
     return 0;
 }
@@ -202,7 +209,7 @@ int threadRun( void )
 // int multiThreadFunc()
 // {
 // 	cout << "Threads 1 and 2 and 3 "
-// 		"operating independently" << endl;
+// 		"operating independently" << "\n";
 
 // 	// This thread is launched by using
 // 	// function pointer as callable
@@ -366,7 +373,7 @@ int threadRun( void )
 // {
 //   long t_id;
 //   t_id = (long)thread_id;
-//   cout << "I am a thread and my Thread ID is: " << t_id << endl;
+//   cout << "I am a thread and my Thread ID is: " << t_id << "\n";
 //   pthread_exit(NULL);
 // }
 
@@ -378,12 +385,12 @@ int threadRun( void )
 
 //   for (i = 0; i < NUM_THREADS; i++)
 //   {
-//     cout << "main() : creating thread, " << i << endl;
+//     cout << "main() : creating thread, " << i << "\n";
 //     k = pthread_create(&threads[i], NULL, Printmsg, (void *)i);
 
 //     if (k)
 //     {
-//       cout << "Error:unable to create thread," << k << endl;
+//       cout << "Error:unable to create thread," << k << "\n";
 //       exit(-1);
 //     }
 //   }

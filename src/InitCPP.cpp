@@ -8,6 +8,7 @@
 
 #include <stdarg.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <D:\TrialProjects\VSCode\InitCPP\header\commonHeaders.h>
 
 
@@ -19,29 +20,58 @@ void WriteFormatted (FILE * stream, const char * format, ...)
   va_end (args);
 }
 
+int checkTypeCastPromotion()
+{
+    int n(10);
+    double arra[n][5];
+    int a = 7, b = 2;
+    float c;
+    c = a / b;
+  
+    cout << "Result of a/b : ["<<a<<"/"<<b<<"=]" << c;
+	return EXIT_SUCCESS;
+}
+
+
+void fileOperation(void)
+{
+	FILE * qFile;
+	char* fName = {"myl.txt"};
+
+	qFile = fopen (fName,"w");
+
+	WriteFormatted (qFile,"Call with %d variable argument.\n",1);
+	WriteFormatted (qFile,"Call with %d variable %s.\n",2,"arguments");
+
+	fclose (qFile);
+}
+
 int varArgfuncUsage(void) {
 
 	char* xStr[256];
 	int x, y(50);
 
-	cout << "Enter any int" << "\n";
-	scanf("%d",&x);
 	int &ptr1 = y, &ptr2 = ptr1;
-	++ptr1; ++ptr2;
-	cout << &ptr1 << "\t" << &ptr2 << "\n";
+	++ptr1; ++ptr2; // alias usage incrementing y with two diff name aliases
+	cout << &ptr1 << "\t" << &ptr2 << "\n"; // aliases have same address (as of 'y' here)
 
-	puts("Hello C World!!!");
-    std::cout << "Hello, C++ world!\n";
+	puts("in Function ");
+    std::cout << "varArgfuncUsage\n";
 	//gets(xStr);
 	FILE * pFile;
     char sentence [256];
 
-    printf ("Enter sentence to append: ");
     fflush(stdout); // Will now print everything in the stdout buffer
+	printf ("Enter sentence to append:\t");
+    fflush(stdin); // Will now clear everything in the stdin buffer
     fgets (sentence,256,stdin);
     pFile = fopen ("mylog.txt","a");
     fputs (sentence,pFile);
     fclose (pFile);
+    cout << "Enter any int" << "\t";
+	scanf("%d",&x);
+	// scanf("%d *[^\n]", &x); // beware enter key does not stop the scanning and *[^\n] says to ignore everything after your integer
+							//  input that isn't a newline, but don't do anything with the newline (skip it).
 	printf("%d %s", x+y, sentence);
 	/* *
 	 * The stdout stream is line buffered by default, so will only display what's in the buffer after it reaches a newline (or when it's told to). You have a few options to print immediately:
@@ -56,28 +86,8 @@ int varArgfuncUsage(void) {
 	 * setvbuf(stdout, NULL, _IONBF, 0);
 	 * */
 
-	 FILE * qFile;
-	 char* fName = {"myl.txt"};
+	cout << checkTypeCastPromotion() << "\n";
+	fileOperation();
 
-	   qFile = fopen (fName,"w");
-
-	   WriteFormatted (qFile,"Call with %d variable argument.\n",1);
-	   WriteFormatted (qFile,"Call with %d variable %s.\n",2,"arguments");
-
-	   fclose (qFile);
-
-
-
-	return EXIT_SUCCESS;
-}
-int checkTypeCastPromotion()
-{
-    int n(10);
-    double arra[n][5];
-    int a = 7, b = 2;
-    float c;
-    c = a / b;
-  
-    cout << "Result:" << c;
 	return EXIT_SUCCESS;
 }

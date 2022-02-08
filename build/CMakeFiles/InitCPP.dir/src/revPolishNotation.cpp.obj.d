@@ -108,18 +108,18 @@ CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstring \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
  c:\mingw\include\wchar.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\stack \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\deque \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_uninitialized.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_vector.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_bvector.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\stack \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\deque \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_deque.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\deque.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_stack.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\queue \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\vector \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_vector.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_bvector.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_heap.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_queue.h

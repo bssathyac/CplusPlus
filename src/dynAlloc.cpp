@@ -281,7 +281,7 @@ int dynAllocMemCandCPP(void)
     Cppmethod1();
     cout << "C++ method 2 \n";
     Cppmethod2();
-	cout << endl;
+	cout << "\n";
 
 
     return 0;

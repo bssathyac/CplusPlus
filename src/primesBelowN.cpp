@@ -131,7 +131,7 @@ int sieveOFeratosthenes()
         cout << prime[i] << " ";
  
     cout << "Following are the prime numbers smaller "
-         << " than or equal to " << N << endl;
+         << " than or equal to " << N << "\n";
     SieveOfEratosthenes(N);
 
     return 0;

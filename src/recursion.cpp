@@ -41,23 +41,24 @@ int getRemainder(int arg1, int arg2)
 
 int checkGCD(int num1, int num2)
 {
-    int t_rmndr, t_max;
+    int t_rmndr;
+    static int t_min;
 
     t_rmndr = getRemainder(num1, num2);
-    t_max = num1 > num2 ? num1 : num2;
+    t_min = num1 < num2 ? num1 : num2;
 
     if (t_rmndr != 0)
     {
-        checkGCD(t_rmndr, t_max);
+        checkGCD(t_rmndr, t_min);
     }
 
-    return t_rmndr;
+    return t_min;
 }
 
 int checkRecursion(void)
 {
     checkFactorial();
-    cout << checkGCD(48,18) << "\n";
+    cout << checkGCD(18,48) << "\n";
 
     return 0;
 }

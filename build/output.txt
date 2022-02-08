@@ -1,2 +1,2 @@
-Wrote to file output.txt .. 
-71
+Inside file output.txt .. 
+11

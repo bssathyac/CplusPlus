@@ -54,12 +54,13 @@ class Subject : public ISubject {
     list_observer_.remove(observer);
   }
   void Notify() override {
-    //std::list<IObserver *>::iterator iterator = list_observer_.begin();
     HowManyObserver();
-    // while (iterator != list_observer_.end()) {
+    // std::list<IObserver *>::iterator iterator = list_observer_.begin();
+    // while (iterator != list_observer_.end())
+    // {
     //   (*iterator)->Update(message_);
     //   ++iterator;
-    // }
+    // } /*  OR can be done as below  */
     for (const auto &it:list_observer_)
     {it->Update(message_); }
   }
@@ -92,15 +93,13 @@ class Subject : public ISubject {
 class Observer : public IObserver {
  public:
   Observer(Subject &subject) : subject_(subject) { // if the initializer list was not used then there will be compiler error
-    //subject_= subject; Error "Observer::Observer(Subject &subject)" provides no initializer for: -- reference member "Observer::subject_"
-    // this->
-    subject_.Attach(this);
+    // subject_= subject; Error "Observer::Observer(Subject &subject)" provides no initializer for: -- reference member "Observer::subject_"
+    this->subject_.Attach(this);
     std::cout << "Hi, I'm the Observer \"" << ++Observer::static_number_ << "\".\n";
-    // this->
-    number_ = Observer::static_number_;
+    this->number_ = Observer::static_number_;
   }
   virtual ~Observer() {
-    std::cout << "Goodbye, I was the Observer \"" << /*this->*/number_ << "\".\n";
+    std::cout << "Goodbye, I was the Observer \"" << this->number_ << "\".\n";
   }
 
   void Update(const std::string &message_from_subject) override {

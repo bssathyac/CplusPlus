@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/InitCPP.cpp" "CMakeFiles/InitCPP.dir/src/InitCPP.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/InitCPP.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/LinkedLists.cpp" "CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/binaryGap.cpp" "CMakeFiles/InitCPP.dir/src/binaryGap.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/binaryGap.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/bitFields.cpp" "CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/constPointer.cpp" "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/cpyCtor.cpp" "CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/cpyCtor.cpp.obj.d"
@@ -22,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/multiThread.cpp" "CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/multiThread.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/observerPattern.cpp" "CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/observerPattern.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/operatorOverloading.cpp" "CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/pointerToClassMemDirect.cpp" "CMakeFiles/InitCPP.dir/src/pointerToClassMemDirect.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/pointerToClassMemDirect.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/primesBelowN.cpp" "CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/primesBelowN.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/recursion.cpp" "CMakeFiles/InitCPP.dir/src/recursion.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/recursion.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/revPolishNotation.cpp" "CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/revPolishNotation.cpp.obj.d"
@@ -31,6 +33,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/stdTempLibs.cpp" "CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/stringRev.cpp" "CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/stringSearch.cpp" "CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/testLuxoft.cpp" "CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/vecArrayRotate.cpp" "CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/virtualFunc.cpp" "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj.d"
   )
 

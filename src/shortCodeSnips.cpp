@@ -17,10 +17,11 @@ long long INFF = 1000000000000000005LL;
 double PI = acos(-1);
 int dirx[8] = { -1, 0, 0, 1, -1, -1, 1, 1 };
 int diry[8] = { 0, 1, -1, 0, -1, 1, -1, 1 };
- 
+
+
 #ifdef TESTING
 #define DEBUG fprintf(stderr, "====TESTING====\n")
-#define VALUE(x) cerr << "The value of " << #x << " is " << x << endl
+#define VALUE(x) cerr << "The value of " << #x << " is " << x << "\n"
 #define debug(...) fprintf(stderr, __VA_ARGS__)
 #else
 #define DEBUG
@@ -109,11 +110,15 @@ inline void OPEN(string s)
  
 int fileReOPENwithStdinStdout()
 {
-    freopen("A.in", "r", stdin);
-    freopen("output.txt", "w", stdout);
- 
     int a, b;
+
+    cout << "Input two nums [press enter after each num input]\n";
     cin >> a >> b;
-    cout <<"Wrote to file output.txt .. \n"<< a + b << endl;
+    fflush(stdin);
+    freopen("A.in", "r", stdin);
+    cout <<"Wrote to file output.txt .. \n"<< a + b << "\n";
+    fflush(stdout);
+    freopen("output.txt", "w", stdout);
+    cout <<"Inside file output.txt .. \n"<< a + b << "\n";
     return 0;
 }

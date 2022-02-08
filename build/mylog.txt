@@ -1,13 +1,3 @@
-Welcome
-double
-time
-showdown
-rev
-rev str
-method4
-ctor
-push back
-str size
-null char in cout str
-shorten code
-OPEN
+Hello
+rain
+append

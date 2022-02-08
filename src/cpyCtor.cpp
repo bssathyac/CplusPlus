@@ -9,7 +9,7 @@ public:
     myStr(const char *str = NULL); // constructor
     ~myStr() { delete [] s;  }// destructor
     myStr(const myStr&); // copy constructor
-    void print() { cout << s << endl; } // Function to print string
+    void print() { cout << s << "\n"; } // Function to print string
     void change(const char *);  // Function to change
 };
  
@@ -61,7 +61,7 @@ public:
     myStr2(const char *str = NULL); // constructor
     ~myStr2() { delete [] s;  }// destructor
     // myStr2(const myStr2&); // No explicit copy constructor 
-    void print() { cout << s << endl; } // Function to print string
+    void print() { cout << s << "\n"; } // Function to print string
     void change(const char *);  // Function to change
     int getSize() const {return size; } // Function to change
 };

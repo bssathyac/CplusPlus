@@ -7,7 +7,6 @@ int main(int argc, char *argv[])
     // checkTypeCastPromotion();
     // constPtrEg();
     // mutableStorageClassSpecifier();
-    // varArgfuncUsage();
     // letterCountInString();
     // swapStringfromMiddle();
     // swapStringwithInBuiltReverseMethod(); // #include <bits/stdc++.h>
@@ -16,7 +15,6 @@ int main(int argc, char *argv[])
     // mrevStrByConstructrUsage();
     // revStrUsingTempStrPushBack();
     // getTheStringLength();
-    // fileReOPENwithStdinStdout();
     // virtualFuncUsage1();
     // virtualMethodCtorDtor();
     // ctorDtorCallSeq();
@@ -29,18 +27,24 @@ int main(int argc, char *argv[])
     // dynAllocMemCandCPP();
     // sortFuncFromAlgorithmLib();
     // theObserverPattern();
+    // illustratePtrToClassMembrs();
     // findPrimesbelowN();
     // sieveOFeratosthenes();
     // copyCtorExplained();
-    // multiThreadFunc(); TODO
-    // socketProg();
-    // callShapes3dInmain(argc, &argv[0]);
+    // // multiThreadFunc(); TODO
+    // // socketProg(); TODO
+    // // callShapes3dInmain(argc, &argv[0]); TODO
     // checkBitFieldOutput();
     // checkStringArrIndexWithChar();
-    // threadRun();
-    // RevesePolishNotationExmp();
     // checkSTLvmProps();
     // smartPtrUsage();
-    checkRecursion();
+    // checkRecursion();
+    // checkException();
+    // RevesePolishNotationExmp();
+    // threadRun();
+    // varArgfuncUsage();
+    // fileReOPENwithStdinStdout();
+    // checkBinaryGapSln();
+    checkRotateVec();
     return 0;
 }

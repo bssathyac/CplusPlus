@@ -83,7 +83,7 @@ int mrevStrByConstructrUsage()
     //Use of reverse iterators
     string rev = string(str.rbegin(),str.rend());
  
-    cout<<rev<<endl;
+    cout<<rev<<"\n";
     return 0;
 }
 
@@ -97,7 +97,7 @@ int revStrUsingTempStrPushBack()
     for(int i=n-1;i>=0;i--)
       rev.push_back(str[i]);
    
-    cout<<rev<<endl;
+    cout<<rev<<"\n";
     return 0;
 }
 
@@ -126,11 +126,10 @@ int getTheStringLength()
     while (str[i])
         i++;
     cout << i << " : Method 4 count in while loop till \\0 reached \n ";
-  
+
     // 5. size of string object using for loop
-    // for(; NOT NULL 😉
-    for (i = 0; str[i]; i++)
-        ;
+    // for(; NOT NULL ; incr i
+    for (i = 0; str[i]; i++);
     cout << i << " : Method 5 count in for loop till \\0 reached \n ";
   
     return 0;

@@ -54,7 +54,7 @@ class dog
 public:
     dog()
     {
-        cout<< "Constructor called" <<endl;
+        cout<< "Constructor called" <<"\n";
         bark() ;
     }
  
@@ -65,7 +65,7 @@ public:
  
     virtual void bark()
     {
-        cout<< "Virtual method called" <<endl;
+        cout<< "Virtual method called" <<"\n";
     }
  
     void seeCat()
@@ -79,11 +79,11 @@ class Yellowdog : public dog
 public:
         Yellowdog()
         {
-            cout<< "Derived class Constructor called" <<endl;
+            cout<< "Derived class Constructor called" <<"\n";
         }
         void bark()
         {
-            cout<< "Derived class Virtual method called" <<endl;
+            cout<< "Derived class Virtual method called" <<"\n";
         }
 };
  

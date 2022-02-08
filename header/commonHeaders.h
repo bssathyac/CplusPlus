@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <cstring>
+#include <vector>
 using namespace std;
 
 #endif // COMMON_CPP_HEADER_FILES

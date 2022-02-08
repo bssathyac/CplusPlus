@@ -10,13 +10,13 @@ public:
   
     Base() 
     { 
-        cout << "Action from Base" << endl;
+        cout << "Action from Base" << "\n";
     }
   
     virtual // Ensures to invoke actual object destructor
     ~Base() 
     {
-        cout << "Base destroyed" << endl;
+        cout << "Base destroyed" << "\n";
     }
   
     // An interface
@@ -28,17 +28,17 @@ class Derived1 : public Base
 public:
     Derived1()
     {
-        cout << "Derived1 created" << endl;
+        cout << "Derived1 created" << "\n";
     }
   
     ~Derived1()
     {
-        cout << "Derived1 destroyed" << endl;
+        cout << "Derived1 destroyed" << "\n";
     }
   
     void DisplayAction()
     {
-        cout << "Action from Derived1" << endl;
+        cout << "Action from Derived1" << "\n";
     }
 };
   
@@ -47,17 +47,17 @@ class Derived2 : public Base
 public:
     Derived2()
     {
-        cout << "Derived2 created" << endl;
+        cout << "Derived2 created" << "\n";
     }
   
     ~Derived2()
     {
-        cout << "Derived2 destroyed" << endl;
+        cout << "Derived2 destroyed" << "\n";
     }
   
     void DisplayAction()
     {
-        cout << "Action from Derived2" << endl;
+        cout << "Action from Derived2" << "\n";
     }
 };
   
@@ -66,17 +66,17 @@ class Derived3 : public Base
 public:
     Derived3()
     {
-        cout << "Derived3 created" << endl;
+        cout << "Derived3 created" << "\n";
     }
   
     ~Derived3()
     {
-        cout << "Derived3 destroyed" << endl;
+        cout << "Derived3 destroyed" << "\n";
     }
   
     void DisplayAction()
     {
-        cout << "Action from Derived3" << endl;
+        cout << "Action from Derived3" << "\n";
     }
 };
   
@@ -215,12 +215,12 @@ int singletonMethodDemo()
 
     s->updateMyObj(10);
     s->printMyObj();
-    std::cout << std::endl;
+    std::cout << "\n";
     r->updateMyObj(22);
     r->printMyObj();
     std::cout << " = ";
     s->printMyObj();
-    std::cout << std::endl;
+    std::cout << "\n";
 
     return 0;
 }
@@ -312,15 +312,15 @@ class MyClass3: public MyClass1, public MyClass2 {
 };
 
 struct A1 {
-  virtual void f() { cout << "Class A1" << endl; }
+  virtual void f() { cout << "Class A1" << "\n"; }
 };
 
 struct B2 : public A1 {
-  virtual void f() { cout << "Class B2" << endl; }
+  virtual void f() { cout << "Class B2" << "\n"; }
 };
 
 struct C3 : public A1 {
-  virtual void f() { cout << "Class C3" << endl; }
+  virtual void f() { cout << "Class C3" << "\n"; }
 };
 
 void f(A1* arg) {

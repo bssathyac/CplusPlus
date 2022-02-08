@@ -570,6 +570,30 @@ src/LinkedLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.s
 .PHONY : src/LinkedLists.cpp.s
 
+src/binaryGap.obj: src/binaryGap.cpp.obj
+.PHONY : src/binaryGap.obj
+
+# target to build an object file
+src/binaryGap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/binaryGap.cpp.obj
+.PHONY : src/binaryGap.cpp.obj
+
+src/binaryGap.i: src/binaryGap.cpp.i
+.PHONY : src/binaryGap.i
+
+# target to preprocess a source file
+src/binaryGap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/binaryGap.cpp.i
+.PHONY : src/binaryGap.cpp.i
+
+src/binaryGap.s: src/binaryGap.cpp.s
+.PHONY : src/binaryGap.s
+
+# target to generate assembly for a file
+src/binaryGap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/binaryGap.cpp.s
+.PHONY : src/binaryGap.cpp.s
+
 src/bitFields.obj: src/bitFields.cpp.obj
 .PHONY : src/bitFields.obj
 
@@ -858,6 +882,30 @@ src/operatorOverloading.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/operatorOverloading.cpp.s
 .PHONY : src/operatorOverloading.cpp.s
 
+src/pointerToClassMemDirect.obj: src/pointerToClassMemDirect.cpp.obj
+.PHONY : src/pointerToClassMemDirect.obj
+
+# target to build an object file
+src/pointerToClassMemDirect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/pointerToClassMemDirect.cpp.obj
+.PHONY : src/pointerToClassMemDirect.cpp.obj
+
+src/pointerToClassMemDirect.i: src/pointerToClassMemDirect.cpp.i
+.PHONY : src/pointerToClassMemDirect.i
+
+# target to preprocess a source file
+src/pointerToClassMemDirect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/pointerToClassMemDirect.cpp.i
+.PHONY : src/pointerToClassMemDirect.cpp.i
+
+src/pointerToClassMemDirect.s: src/pointerToClassMemDirect.cpp.s
+.PHONY : src/pointerToClassMemDirect.s
+
+# target to generate assembly for a file
+src/pointerToClassMemDirect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/pointerToClassMemDirect.cpp.s
+.PHONY : src/pointerToClassMemDirect.cpp.s
+
 src/primesBelowN.obj: src/primesBelowN.cpp.obj
 .PHONY : src/primesBelowN.obj
 
@@ -1074,6 +1122,54 @@ src/stringSearch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringSearch.cpp.s
 .PHONY : src/stringSearch.cpp.s
 
+src/testLuxoft.obj: src/testLuxoft.cpp.obj
+.PHONY : src/testLuxoft.obj
+
+# target to build an object file
+src/testLuxoft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj
+.PHONY : src/testLuxoft.cpp.obj
+
+src/testLuxoft.i: src/testLuxoft.cpp.i
+.PHONY : src/testLuxoft.i
+
+# target to preprocess a source file
+src/testLuxoft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.i
+.PHONY : src/testLuxoft.cpp.i
+
+src/testLuxoft.s: src/testLuxoft.cpp.s
+.PHONY : src/testLuxoft.s
+
+# target to generate assembly for a file
+src/testLuxoft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.s
+.PHONY : src/testLuxoft.cpp.s
+
+src/vecArrayRotate.obj: src/vecArrayRotate.cpp.obj
+.PHONY : src/vecArrayRotate.obj
+
+# target to build an object file
+src/vecArrayRotate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj
+.PHONY : src/vecArrayRotate.cpp.obj
+
+src/vecArrayRotate.i: src/vecArrayRotate.cpp.i
+.PHONY : src/vecArrayRotate.i
+
+# target to preprocess a source file
+src/vecArrayRotate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.i
+.PHONY : src/vecArrayRotate.cpp.i
+
+src/vecArrayRotate.s: src/vecArrayRotate.cpp.s
+.PHONY : src/vecArrayRotate.s
+
+# target to generate assembly for a file
+src/vecArrayRotate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.s
+.PHONY : src/vecArrayRotate.cpp.s
+
 src/virtualFunc.obj: src/virtualFunc.cpp.obj
 .PHONY : src/virtualFunc.obj
 
@@ -1144,6 +1240,9 @@ help:
 	@echo ... src/LinkedLists.obj
 	@echo ... src/LinkedLists.i
 	@echo ... src/LinkedLists.s
+	@echo ... src/binaryGap.obj
+	@echo ... src/binaryGap.i
+	@echo ... src/binaryGap.s
 	@echo ... src/bitFields.obj
 	@echo ... src/bitFields.i
 	@echo ... src/bitFields.s
@@ -1180,6 +1279,9 @@ help:
 	@echo ... src/operatorOverloading.obj
 	@echo ... src/operatorOverloading.i
 	@echo ... src/operatorOverloading.s
+	@echo ... src/pointerToClassMemDirect.obj
+	@echo ... src/pointerToClassMemDirect.i
+	@echo ... src/pointerToClassMemDirect.s
 	@echo ... src/primesBelowN.obj
 	@echo ... src/primesBelowN.i
 	@echo ... src/primesBelowN.s
@@ -1207,6 +1309,12 @@ help:
 	@echo ... src/stringSearch.obj
 	@echo ... src/stringSearch.i
 	@echo ... src/stringSearch.s
+	@echo ... src/testLuxoft.obj
+	@echo ... src/testLuxoft.i
+	@echo ... src/testLuxoft.s
+	@echo ... src/vecArrayRotate.obj
+	@echo ... src/vecArrayRotate.i
+	@echo ... src/vecArrayRotate.s
 	@echo ... src/virtualFunc.obj
 	@echo ... src/virtualFunc.i
 	@echo ... src/virtualFunc.s

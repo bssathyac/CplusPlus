@@ -42,7 +42,7 @@ int uniquePtrUsage()
 {
  
     unique_ptr<Rectangle> P1(new Rectangle(10, 5));
-    cout << "\n" << P1->area() << endl; // This'll print 50
+    cout << "\n" << P1->area() << "\n"; // This'll print 50
  
     // unique_ptr<Rectangle> P2(P1);
     unique_ptr<Rectangle> P2;
@@ -51,7 +51,7 @@ int uniquePtrUsage()
     // This'll also print 50
     cout << P2->area() << "\n";
  
-    // cout<<P1->area()<<endl;
+    // cout<<P1->area()<<"\n";
     return 0;
 }
 
