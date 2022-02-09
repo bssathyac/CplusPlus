@@ -71,7 +71,8 @@ int checkBinaryGapSln(void);
 int checkRotateVec(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\oddOccurenceInArray.cpp has the below function and is linked with CMake
 int checkOddOccurenceInVec(void);
-
+//#include D:\TrialProjects\VSCode\InitCPP\src\frogJump.cpp has the below function and is linked with CMake
+int checkFrogJmp(void);
 //int callShapes3dInmain(int argc, char *argv[]);
 
 #endif // End Of INITCPP_MAIN_HEADER_FILE

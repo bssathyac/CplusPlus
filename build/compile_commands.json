@@ -36,6 +36,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\frogJump.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\frogJump.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/frogJump.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\inheritanceClassUses.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\inheritanceClassUses.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/inheritanceClassUses.cpp"
 },

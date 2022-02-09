@@ -690,6 +690,30 @@ src/dynAlloc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/dynAlloc.cpp.s
 .PHONY : src/dynAlloc.cpp.s
 
+src/frogJump.obj: src/frogJump.cpp.obj
+.PHONY : src/frogJump.obj
+
+# target to build an object file
+src/frogJump.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/frogJump.cpp.obj
+.PHONY : src/frogJump.cpp.obj
+
+src/frogJump.i: src/frogJump.cpp.i
+.PHONY : src/frogJump.i
+
+# target to preprocess a source file
+src/frogJump.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/frogJump.cpp.i
+.PHONY : src/frogJump.cpp.i
+
+src/frogJump.s: src/frogJump.cpp.s
+.PHONY : src/frogJump.s
+
+# target to generate assembly for a file
+src/frogJump.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/frogJump.cpp.s
+.PHONY : src/frogJump.cpp.s
+
 src/inheritanceClassUses.obj: src/inheritanceClassUses.cpp.obj
 .PHONY : src/inheritanceClassUses.obj
 
@@ -1279,6 +1303,9 @@ help:
 	@echo ... src/dynAlloc.obj
 	@echo ... src/dynAlloc.i
 	@echo ... src/dynAlloc.s
+	@echo ... src/frogJump.obj
+	@echo ... src/frogJump.i
+	@echo ... src/frogJump.s
 	@echo ... src/inheritanceClassUses.obj
 	@echo ... src/inheritanceClassUses.i
 	@echo ... src/inheritanceClassUses.s
