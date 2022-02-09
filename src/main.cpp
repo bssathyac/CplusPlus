@@ -45,6 +45,8 @@ int main(int argc, char *argv[])
     // varArgfuncUsage();
     // fileReOPENwithStdinStdout();
     // checkBinaryGapSln();
-    checkRotateVec();
+    // checkRotateVec();
+    checkOddOccurenceInVec();
+
     return 0;
 }

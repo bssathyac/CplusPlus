@@ -69,6 +69,8 @@ int checkException(void);
 int checkBinaryGapSln(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\vecArrayRotate.cpp has the below function and is linked with CMake
 int checkRotateVec(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\oddOccurenceInArray.cpp has the below function and is linked with CMake
+int checkOddOccurenceInVec(void);
 
 //int callShapes3dInmain(int argc, char *argv[]);
 

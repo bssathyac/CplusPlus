@@ -71,6 +71,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\oddOccurenceInArray.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\oddOccurenceInArray.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/oddOccurenceInArray.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\operatorOverloading.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\operatorOverloading.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/operatorOverloading.cpp"
 },

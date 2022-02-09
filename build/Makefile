@@ -858,6 +858,30 @@ src/observerPattern.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/observerPattern.cpp.s
 .PHONY : src/observerPattern.cpp.s
 
+src/oddOccurenceInArray.obj: src/oddOccurenceInArray.cpp.obj
+.PHONY : src/oddOccurenceInArray.obj
+
+# target to build an object file
+src/oddOccurenceInArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/oddOccurenceInArray.cpp.obj
+.PHONY : src/oddOccurenceInArray.cpp.obj
+
+src/oddOccurenceInArray.i: src/oddOccurenceInArray.cpp.i
+.PHONY : src/oddOccurenceInArray.i
+
+# target to preprocess a source file
+src/oddOccurenceInArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/oddOccurenceInArray.cpp.i
+.PHONY : src/oddOccurenceInArray.cpp.i
+
+src/oddOccurenceInArray.s: src/oddOccurenceInArray.cpp.s
+.PHONY : src/oddOccurenceInArray.s
+
+# target to generate assembly for a file
+src/oddOccurenceInArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/oddOccurenceInArray.cpp.s
+.PHONY : src/oddOccurenceInArray.cpp.s
+
 src/operatorOverloading.obj: src/operatorOverloading.cpp.obj
 .PHONY : src/operatorOverloading.obj
 
@@ -1276,6 +1300,9 @@ help:
 	@echo ... src/observerPattern.obj
 	@echo ... src/observerPattern.i
 	@echo ... src/observerPattern.s
+	@echo ... src/oddOccurenceInArray.obj
+	@echo ... src/oddOccurenceInArray.i
+	@echo ... src/oddOccurenceInArray.s
 	@echo ... src/operatorOverloading.obj
 	@echo ... src/operatorOverloading.i
 	@echo ... src/operatorOverloading.s

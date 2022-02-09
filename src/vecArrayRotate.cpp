@@ -34,13 +34,13 @@ vector<int> solution1(vector<int> &A, int K)
     {
         for (int i = 0; i < sizeOfVec;i++)
         {
-            idx = (((sizeOfVec - rotates) + i) % sizeOfVec);
+            idx = (((sizeOfVec - rotates) + i) % sizeOfVec); // start idx is (sizeOfVec - rotates) and continue further
             A.push_back(A[idx]); // temporarily extending memory allocated for the vector
         }
         vector<int>::iterator it = A.begin();
         for (int k = 0; k < sizeOfVec; k++)
         {
-            it = A.erase(it);
+            it = A.erase(it); // Releasing the extended memory allocated for the vector
         }
     }
 
@@ -58,8 +58,8 @@ vector<int> solution2(vector<int> &A, int K)
         for (int i = 1; i <= rotates;i++)
         {
             idx = (sizeOfVec - i);
-            for (int j = (sizeOfVec -1); j > 0; j--)
-            {
+            for (int j = (sizeOfVec -1); j > 0; j--) // -1 required since addr indx starts from 0
+            {   // swap func is available from move.h library visibility here provided by namespace std
                 swap(A[j],A[j-1]); // swap multiple times until the required num reaches the final pos
             }
         }
