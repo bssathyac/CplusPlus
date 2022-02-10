@@ -73,6 +73,10 @@ int checkRotateVec(void);
 int checkOddOccurenceInVec(void);
 //#include D:\TrialProjects\VSCode\InitCPP\src\frogJump.cpp has the below function and is linked with CMake
 int checkFrogJmp(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\tenplateMetaprogram.cpp has the below function and is linked with CMake
+int checkTemplateMetaProg(void);
+//#include D:\TrialProjects\VSCode\InitCPP\src\variadicTemplates.cpp has the below function and is linked with CMake
+int checVariadicTemplate(void);
 //int callShapes3dInmain(int argc, char *argv[]);
 
 #endif // End Of INITCPP_MAIN_HEADER_FILE

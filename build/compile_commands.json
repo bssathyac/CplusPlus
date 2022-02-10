@@ -136,8 +136,18 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\templateMetaprogram.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\templateMetaprogram.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/templateMetaprogram.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\testLuxoft.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\testLuxoft.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/testLuxoft.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\variadicTemplates.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\variadicTemplates.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/variadicTemplates.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",

@@ -1170,6 +1170,30 @@ src/stringSearch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/stringSearch.cpp.s
 .PHONY : src/stringSearch.cpp.s
 
+src/templateMetaprogram.obj: src/templateMetaprogram.cpp.obj
+.PHONY : src/templateMetaprogram.obj
+
+# target to build an object file
+src/templateMetaprogram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.obj
+.PHONY : src/templateMetaprogram.cpp.obj
+
+src/templateMetaprogram.i: src/templateMetaprogram.cpp.i
+.PHONY : src/templateMetaprogram.i
+
+# target to preprocess a source file
+src/templateMetaprogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.i
+.PHONY : src/templateMetaprogram.cpp.i
+
+src/templateMetaprogram.s: src/templateMetaprogram.cpp.s
+.PHONY : src/templateMetaprogram.s
+
+# target to generate assembly for a file
+src/templateMetaprogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.s
+.PHONY : src/templateMetaprogram.cpp.s
+
 src/testLuxoft.obj: src/testLuxoft.cpp.obj
 .PHONY : src/testLuxoft.obj
 
@@ -1193,6 +1217,30 @@ src/testLuxoft.s: src/testLuxoft.cpp.s
 src/testLuxoft.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.s
 .PHONY : src/testLuxoft.cpp.s
+
+src/variadicTemplates.obj: src/variadicTemplates.cpp.obj
+.PHONY : src/variadicTemplates.obj
+
+# target to build an object file
+src/variadicTemplates.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.obj
+.PHONY : src/variadicTemplates.cpp.obj
+
+src/variadicTemplates.i: src/variadicTemplates.cpp.i
+.PHONY : src/variadicTemplates.i
+
+# target to preprocess a source file
+src/variadicTemplates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.i
+.PHONY : src/variadicTemplates.cpp.i
+
+src/variadicTemplates.s: src/variadicTemplates.cpp.s
+.PHONY : src/variadicTemplates.s
+
+# target to generate assembly for a file
+src/variadicTemplates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.s
+.PHONY : src/variadicTemplates.cpp.s
 
 src/vecArrayRotate.obj: src/vecArrayRotate.cpp.obj
 .PHONY : src/vecArrayRotate.obj
@@ -1363,9 +1411,15 @@ help:
 	@echo ... src/stringSearch.obj
 	@echo ... src/stringSearch.i
 	@echo ... src/stringSearch.s
+	@echo ... src/templateMetaprogram.obj
+	@echo ... src/templateMetaprogram.i
+	@echo ... src/templateMetaprogram.s
 	@echo ... src/testLuxoft.obj
 	@echo ... src/testLuxoft.i
 	@echo ... src/testLuxoft.s
+	@echo ... src/variadicTemplates.obj
+	@echo ... src/variadicTemplates.i
+	@echo ... src/variadicTemplates.s
 	@echo ... src/vecArrayRotate.obj
 	@echo ... src/vecArrayRotate.i
 	@echo ... src/vecArrayRotate.s

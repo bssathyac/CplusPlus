@@ -47,7 +47,8 @@ int main(int argc, char *argv[])
     // checkBinaryGapSln();
     // checkRotateVec();
     // checkOddOccurenceInVec();
-    checkFrogJmp();
-
+    // checkFrogJmp();
+    // checkTemplateMetaProg();
+    checVariadicTemplate();
     return 0;
 }

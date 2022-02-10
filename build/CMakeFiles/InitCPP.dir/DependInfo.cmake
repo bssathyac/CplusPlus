@@ -35,7 +35,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/stdTempLibs.cpp" "CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stdTempLibs.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/stringRev.cpp" "CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stringRev.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/stringSearch.cpp" "CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/templateMetaprogram.cpp" "CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/testLuxoft.cpp" "CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/variadicTemplates.cpp" "CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/vecArrayRotate.cpp" "CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/virtualFunc.cpp" "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj.d"
   )
