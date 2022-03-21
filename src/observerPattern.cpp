@@ -128,7 +128,7 @@ int Observer::static_number_ = 0;
 
 void ClientCode() {
   Subject *subject = new Subject;
-  Observer *observer1 = new Observer(*subject);
+  Observer *observer1 = new Observer(*subject); // pass by reference: actual value of subject ptr is deferenced here
   Observer *observer2 = new Observer(*subject);
   Observer *observer3 = new Observer(*subject);
   Observer *observer4;

@@ -570,6 +570,30 @@ src/LinkedLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.s
 .PHONY : src/LinkedLists.cpp.s
 
+src/atestE.obj: src/atestE.cpp.obj
+.PHONY : src/atestE.obj
+
+# target to build an object file
+src/atestE.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/atestE.cpp.obj
+.PHONY : src/atestE.cpp.obj
+
+src/atestE.i: src/atestE.cpp.i
+.PHONY : src/atestE.i
+
+# target to preprocess a source file
+src/atestE.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/atestE.cpp.i
+.PHONY : src/atestE.cpp.i
+
+src/atestE.s: src/atestE.cpp.s
+.PHONY : src/atestE.s
+
+# target to generate assembly for a file
+src/atestE.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/atestE.cpp.s
+.PHONY : src/atestE.cpp.s
+
 src/binaryGap.obj: src/binaryGap.cpp.obj
 .PHONY : src/binaryGap.obj
 
@@ -1218,6 +1242,30 @@ src/testLuxoft.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.s
 .PHONY : src/testLuxoft.cpp.s
 
+src/trees.obj: src/trees.cpp.obj
+.PHONY : src/trees.obj
+
+# target to build an object file
+src/trees.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/trees.cpp.obj
+.PHONY : src/trees.cpp.obj
+
+src/trees.i: src/trees.cpp.i
+.PHONY : src/trees.i
+
+# target to preprocess a source file
+src/trees.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/trees.cpp.i
+.PHONY : src/trees.cpp.i
+
+src/trees.s: src/trees.cpp.s
+.PHONY : src/trees.s
+
+# target to generate assembly for a file
+src/trees.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InitCPP.dir\build.make CMakeFiles/InitCPP.dir/src/trees.cpp.s
+.PHONY : src/trees.cpp.s
+
 src/variadicTemplates.obj: src/variadicTemplates.cpp.obj
 .PHONY : src/variadicTemplates.obj
 
@@ -1336,6 +1384,9 @@ help:
 	@echo ... src/LinkedLists.obj
 	@echo ... src/LinkedLists.i
 	@echo ... src/LinkedLists.s
+	@echo ... src/atestE.obj
+	@echo ... src/atestE.i
+	@echo ... src/atestE.s
 	@echo ... src/binaryGap.obj
 	@echo ... src/binaryGap.i
 	@echo ... src/binaryGap.s
@@ -1417,6 +1468,9 @@ help:
 	@echo ... src/testLuxoft.obj
 	@echo ... src/testLuxoft.i
 	@echo ... src/testLuxoft.s
+	@echo ... src/trees.obj
+	@echo ... src/trees.i
+	@echo ... src/trees.s
 	@echo ... src/variadicTemplates.obj
 	@echo ... src/variadicTemplates.i
 	@echo ... src/variadicTemplates.s

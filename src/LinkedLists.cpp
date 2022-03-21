@@ -124,7 +124,7 @@ void swapXthAndYthNodePtr(st_nodeEle *st_a_Head, int i_a_xth, int i_a_yth)
     int i_t_yth, i_t_xth;
     st_nodeEle *st_t_tempX, *st_t_tempY, *st_t_tempN, *st_t_tempP;
 
-    st_nodeEle *st_t_tempC = st_a_Head;
+    st_nodeEle *st_t_tempC = st_a_Head; // temp init only, will be overwritten with correct value later
 
     if (i_a_yth > i_a_xth)
     {
@@ -148,10 +148,9 @@ void swapXthAndYthNodePtr(st_nodeEle *st_a_Head, int i_a_xth, int i_a_yth)
            )
         {
             st_t_tempY = getListNodePtrAtN(st_a_Head, i_t_yth);
-            st_t_tempX = getListNodePtrAtN(st_a_Head, i_t_xth);
 
-            st_t_tempP = getListNodePtrAtN(st_a_Head, (i_t_xth - 1));
-            st_t_tempN = getListNodePtrAtN(st_a_Head, (i_t_xth + 1));
+            st_t_tempP = getListNodePtrAtN(st_a_Head, (i_t_xth - 1)); // prev node of Xth
+            st_t_tempN = getListNodePtrAtN(st_a_Head, (i_t_xth + 1)); // next node of Xth
 
             if ( st_t_tempP != 0 )
                 {   
@@ -160,10 +159,11 @@ void swapXthAndYthNodePtr(st_nodeEle *st_a_Head, int i_a_xth, int i_a_yth)
                     st_t_tempY->st_p_nxt_node = st_t_tempN; 
                 }
 
-            st_t_tempP = getListNodePtrAtN(st_a_Head, (i_t_yth - 1));
+            st_t_tempX = getListNodePtrAtN(st_a_Head, i_t_xth);
+            st_t_tempP = getListNodePtrAtN(st_a_Head, (i_t_yth - 1)); // prev node of Yth
             if ( st_t_tempP != 0 )
                 {   
-                    st_t_tempP->st_p_nxt_node = st_t_tempX; 
+                    st_t_tempP->st_p_nxt_node = st_t_tempX;  
                     st_t_tempX->st_p_nxt_node = st_t_tempC; 
                 }
         }

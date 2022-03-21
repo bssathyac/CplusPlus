@@ -6,10 +6,10 @@
 #include <iostream>
 using namespace std;
 
-template <class T, int max>
+template <class T, int minValue>
 int arrMin(T arr[], int n)
 {
-    int m = max;
+    int m = minValue;
     for (int i = 0; i < n; i++)
         if (arr[i] < m)
             m = arr[i];

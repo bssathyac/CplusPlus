@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/InitCPP.cpp" "CMakeFiles/InitCPP.dir/src/InitCPP.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/InitCPP.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/LinkedLists.cpp" "CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/LinkedLists.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/atestE.cpp" "CMakeFiles/InitCPP.dir/src/atestE.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/atestE.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/binaryGap.cpp" "CMakeFiles/InitCPP.dir/src/binaryGap.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/binaryGap.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/bitFields.cpp" "CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/bitFields.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/constPointer.cpp" "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/constPointer.cpp.obj.d"
@@ -37,6 +38,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/TrialProjects/VSCode/InitCPP/src/stringSearch.cpp" "CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/stringSearch.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/templateMetaprogram.cpp" "CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/templateMetaprogram.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/testLuxoft.cpp" "CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/testLuxoft.cpp.obj.d"
+  "D:/TrialProjects/VSCode/InitCPP/src/trees.cpp" "CMakeFiles/InitCPP.dir/src/trees.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/trees.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/variadicTemplates.cpp" "CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/variadicTemplates.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/vecArrayRotate.cpp" "CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/vecArrayRotate.cpp.obj.d"
   "D:/TrialProjects/VSCode/InitCPP/src/virtualFunc.cpp" "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj" "gcc" "CMakeFiles/InitCPP.dir/src/virtualFunc.cpp.obj.d"

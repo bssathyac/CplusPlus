@@ -11,6 +11,11 @@
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\atestE.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\atestE.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/atestE.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\binaryGap.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\binaryGap.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/binaryGap.cpp"
 },
@@ -143,6 +148,11 @@
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\testLuxoft.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\testLuxoft.cpp",
   "file": "D:/TrialProjects/VSCode/InitCPP/src/testLuxoft.cpp"
+},
+{
+  "directory": "D:/TrialProjects/VSCode/InitCPP/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/InitCPP.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\InitCPP.dir\\src\\trees.cpp.obj -c D:\\TrialProjects\\VSCode\\InitCPP\\src\\trees.cpp",
+  "file": "D:/TrialProjects/VSCode/InitCPP/src/trees.cpp"
 },
 {
   "directory": "D:/TrialProjects/VSCode/InitCPP/build",

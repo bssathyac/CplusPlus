@@ -6,8 +6,8 @@
 // Variadic function Template
 void print()
 {
-	cout << "I am empty function and "
-			"I am called at last.\n";
+	cout << "I am empty function to mark the end and "
+			"I am called at last after exhausting all args.\n";
 }
 
 // Variadic function Template that takes
